@@ -29,6 +29,9 @@ hr {
     width: 4%;
     margin: 100px auto 100px auto;
 }
+footer {
+    text-align: center;
+}
 
 .about {
     border-radius: 50%;
