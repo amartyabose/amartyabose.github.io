@@ -1,6 +1,6 @@
 body {
     margin: 0 7.30% 0 7.30%;
-    background-color: #D4ECDD;
+    background-color: #e9f5ee; /*#e9f5ee;*/
     font-family: 'Merriweather', serif;
     color: #214341;
 }
@@ -24,9 +24,9 @@ li:not(:last-child) {
     margin-bottom: 14px;
 }
 hr {
-    border: dotted #345B63 6px;
+    border: solid #345B63 2px;
     border-bottom: none;
-    width: 4%;
+    width: 10%;
     margin: 100px auto 100px auto;
 }
 footer {
@@ -41,7 +41,7 @@ footer {
 }
 
 .mynavbar {
-    background-color: rgba(161, 185, 170, 0.9);
+    background-color: rgba(161, 185, 170, 0.85);
     color: #214341;
     position: fixed;
     width: 85.4%;
@@ -81,11 +81,33 @@ footer {
     text-align: center;
 }
 
+.recent-work {
+    padding-top: 50px;
+    margin: auto;
+    background-color: #233426;
+    text-align: center;
+}
+.recent-work h2 {
+    color: #e9f5ee;
+}
+.carousel {
+    width: 60%;
+    height: 0;
+    padding-bottom: 35%;
+    margin: auto;
+}
+.carousel-item img {
+    max-width: 60%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
 .aboutjumbotron {
     background-image: url("../images/about-background.JPG");
     background-position: center;
     background-size: cover;
-    color: #D4ECDD;
+    color: #e9f5ee;
     padding: 15em 0 15em 0;
 }
 
@@ -93,14 +115,14 @@ footer {
     background-image: url("../images/research-hero-2.png");
     background-position: center;
     background-size: cover;
-    color: #D4ECDD;
+    color: #e9f5ee;
 }
 
 .myjumbotron {
     background-image: url("../images/hero-background.png");
     background-position: center;
     background-size: cover;
-    color: #D4ECDD;
+    color: #e9f5ee;
 }
 .myjumbotron h2 {
     font-family: 'Merriweather', serif;
@@ -113,15 +135,15 @@ footer {
     margin-left: 10%;
 }
 .my-4 {
-    color: #D4ECDD;
-    border-color: #D4ECDD;
+    color: #e9f5ee;
+    border-color: #e9f5ee;
 }
 
 .mybtn {
-    background-color: #345863;
-    border-color: #345863;
+    background-color: #112031;
+    border-color: #112031;
 }
 .mybtn:hover, .mybtn:focus, .mybtn:active, .mybtn:visited {
-    background-color: #223A2B;
-    border-color: #223A2B;
+    background-color: #152D35;
+    border-color: #152D35;
 }
