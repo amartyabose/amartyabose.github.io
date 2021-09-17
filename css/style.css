@@ -60,9 +60,21 @@ hr {
 .myabout h3 {
     text-align: center;
 }
+.grayed-heading {
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 .intro {
     width: 40%;
     margin: auto;
+    text-align: center;
+}
+.index-intro {
+    font-size: 1.5em;
+    width: 75%;
+    margin: auto;
+    text-align: center;
 }
 
 .aboutjumbotron {
@@ -71,6 +83,13 @@ hr {
     background-size: cover;
     color: #D4ECDD;
     padding: 15em 0 15em 0;
+}
+
+.researchjumbotron {
+    background-image: url("../images/research-hero-2.png");
+    background-position: center;
+    background-size: cover;
+    color: #D4ECDD;
 }
 
 .myjumbotron {
@@ -86,6 +105,8 @@ hr {
 }
 .myjumbotron p {
     font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin-left: 10%;
 }
 .my-4 {
     color: #D4ECDD;
