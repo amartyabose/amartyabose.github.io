@@ -1,0 +1,102 @@
+body {
+    margin: 0 7.30% 0 7.30%;
+    background-color: #D4ECDD;
+    font-family: 'Merriweather', serif;
+    color: #214341;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+p {
+    line-height: 2;
+}
+li:not(:last-child) {
+    margin-bottom: 14px;
+}
+hr {
+    border: dotted #345B63 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+.about {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.mynavbar {
+    background-color: rgba(161, 185, 170, 0.9);
+    color: #214341;
+    position: fixed;
+    width: 85.4%;
+    top: 0;
+    z-index: 100000000000;
+}
+
+.mymain {
+    margin-top: 70px;
+}
+
+.myabout {
+    width: 75%;
+    margin: auto;
+}
+.myabout h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+.myabout h3 {
+    text-align: center;
+}
+.intro {
+    width: 40%;
+    margin: auto;
+}
+
+.aboutjumbotron {
+    background-image: url("../images/about-background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #D4ECDD;
+    padding: 15em 0 15em 0;
+}
+
+.myjumbotron {
+    background-image: url("../images/hero-background.png");
+    background-position: center;
+    background-size: cover;
+    color: #D4ECDD;
+}
+.myjumbotron h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+.myjumbotron p {
+    font-family: 'Montserrat', sans-serif;
+}
+.my-4 {
+    color: #D4ECDD;
+    border-color: #D4ECDD;
+}
+
+.mybtn {
+    background-color: #345863;
+    border-color: #345863;
+}
+.mybtn:hover, .mybtn:focus, .mybtn:active, .mybtn:visited {
+    background-color: #223A2B;
+    border-color: #223A2B;
+}
