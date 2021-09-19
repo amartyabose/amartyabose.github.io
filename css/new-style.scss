@@ -3,7 +3,7 @@ $color1: #345B63;
 $color2: #152D35;
 $color3: #112031;
 
-$default-background: lighten($color0, 20%);
+$default-background: lighten($color0, 10%);
 $darker-background: $color0;
 $text-foreground: $color1;
 
@@ -58,16 +58,11 @@ footer {
     text-align: center;
 }
 
-.centered {
-    text-align: center;
-}
-
-.justified {
-    text-align: justify;
-}
-
-.left {
-    text-align: left;
+$alignment: ("centered": center, "justified": justify, "left": left);
+@each $name, $align in $alignment {
+    .#{$name} {
+        text-align: #{$align};
+    }
 }
 
 .section {
