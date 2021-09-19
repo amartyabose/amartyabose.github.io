@@ -150,3 +150,20 @@ $expo-widths: ("40": 40%, "75": 75%);
         margin: auto;
     }
 }
+
+@media (max-width: 640px) {
+    .carousel {
+        $width: 85.4%;
+        width: $width;
+        height: 0;
+        padding-bottom: $width * 0.9;
+        margin: auto;
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .caption {
+        display: none;
+    }
+}
