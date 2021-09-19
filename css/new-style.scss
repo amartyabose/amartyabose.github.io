@@ -49,6 +49,11 @@ hr {
     width: 10%;
 }
 
+ol {
+    font-family: $serif-font;
+    font-size: unquote("max(2.4vmin, 11pt)");
+}
+
 li:not(:last-child) {
     margin-bottom: 14px;
 }
@@ -132,7 +137,8 @@ $alignment: ("centered": center, "justified": justify, "left": left);
     padding-bottom: 30%;
     margin: auto;
     img {
-        max-width: 100%;
+        max-width: 80%;
+        margin: 0 10%;
     }
 }
 
