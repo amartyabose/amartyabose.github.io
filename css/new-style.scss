@@ -1,0 +1,146 @@
+$color0: #D4ECDD;
+$color1: #345B63;
+$color2: #152D35;
+$color3: #112031;
+
+$default-background: lighten($color0, 20%);
+$darker-background: $color0;
+$text-foreground: $color1;
+
+$cursive-font: 'Sacramento', cursive;
+$sanserif-font: 'Montserrat', sans-serif;
+$serif-font: 'Merriweather', serif;
+
+body {
+    margin: 0 7.3%;
+    background-color: $default-background;
+    color: $text-foreground;
+}
+
+h1 {
+    font-family: $cursive-font;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: $sanserif-font;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: $serif-font;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+hr {
+    border: solid $text-foreground 2px;
+    border-bottom: none;
+    width: 10%;
+}
+
+li:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.larger {
+    font-size: 1.2em;
+}
+
+.ab-navbar {
+    background-color: rgba($color1, 0.85);
+    position: fixed;
+    width: 85.4%;
+    top: 0;
+    z-index: 100000000000;
+    height: 40;
+    .ab-navlist {
+        margin-top: 7.5px;
+        margin-bottom: -7.5px;
+    }
+}
+
+.skip-nav {
+    margin-top: 70px;
+}
+
+.jumbotron-with-description {
+    background-position: center;
+    background-size: cover;
+    color: $default-background;
+    margin: 0;
+    text-align: center;
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.25rem;
+        width: 80%;
+        margin-left: 10%;
+    }
+    hr {
+        color: $default-background;
+        border-color: $default-background;
+    }
+}
+
+.carousel {
+    width: 60%;
+    height: 0;
+    padding-bottom: 35%;
+    margin: auto;
+    img {
+        max-width: 100%;
+    }
+}
+
+.grayed-heading {
+    font-family: $sanserif-font;
+    text-align: center;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+$jumbo-defs: ("index": 5em, "research": 5em, "about": 15em);
+@each $jumbo, $pad in $jumbo-defs {
+    .#{$jumbo}-jumbo {
+        background-image: url("../images/#{$jumbo}-hero.png");
+        padding: #{$pad} 0;
+    }
+}
+
+$expo-widths: ("40": 40%, "75": 75%);
+@each $name, $val in $expo-widths {
+    .exposition-#{$name} {
+        width: $val;
+        margin: auto;
+    }
+}

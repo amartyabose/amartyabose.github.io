@@ -1,0 +1,148 @@
+body {
+  margin: 0 7.3%;
+  background-color: white;
+  color: #345B63;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+hr {
+  border: solid #345B63 2px;
+  border-bottom: none;
+  width: 10%;
+}
+
+li:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.left {
+  text-align: left;
+}
+
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.larger {
+  font-size: 1.2em;
+}
+
+.ab-navbar {
+  background-color: rgba(52, 91, 99, 0.85);
+  position: fixed;
+  width: 85.4%;
+  top: 0;
+  z-index: 100000000000;
+  height: 40;
+}
+
+.ab-navbar .ab-navlist {
+  margin-top: 7.5px;
+  margin-bottom: -7.5px;
+}
+
+.skip-nav {
+  margin-top: 70px;
+}
+
+.jumbotron-with-description {
+  background-position: center;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.jumbotron-with-description h2 {
+  font-size: 1.5rem;
+}
+
+.jumbotron-with-description p {
+  font-size: 1.25rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.jumbotron-with-description hr {
+  color: white;
+  border-color: white;
+}
+
+.carousel {
+  width: 60%;
+  height: 0;
+  padding-bottom: 35%;
+  margin: auto;
+}
+
+.carousel img {
+  max-width: 100%;
+}
+
+.grayed-heading {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.circle-img {
+  border-radius: 50%;
+}
+
+.index-jumbo {
+  background-image: url("../images/index-hero.png");
+  padding: 5em 0;
+}
+
+.research-jumbo {
+  background-image: url("../images/research-hero.png");
+  padding: 5em 0;
+}
+
+.about-jumbo {
+  background-image: url("../images/about-hero.png");
+  padding: 15em 0;
+}
+
+.exposition-40 {
+  width: 40%;
+  margin: auto;
+}
+
+.exposition-75 {
+  width: 75%;
+  margin: auto;
+}
+/*# sourceMappingURL=new-style.css.map */

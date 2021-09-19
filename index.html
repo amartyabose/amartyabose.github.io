@@ -19,13 +19,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/new-style.css">
     <title>Amartya Bose</title>
 </head>
 
 <body>
 
-    <nav class="navbar mynavbar navbar-expand-lg navbar-light" height="40">
+    <nav class="navbar ab-navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img src="images/atom.png" alt="" height="40"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,7 +34,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto" style="margin-top:7.5px; margin-bottom: -7.5px;">
+            <ul class="navbar-nav ml-auto ab-navlist">
                 <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Research </a>
@@ -42,11 +42,10 @@
                             href="research.html">Overview</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item disabled" href="#">Real time
-                        path integrals</a> <a class="dropdown-item disabled"
-                        href="#">Tensor network</a>
+                            path integrals</a> <a class="dropdown-item disabled" href="#">Tensor network</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item disabled" href="#">Wigner
-                        Distribution</a>
+                            Distribution</a>
                     </div>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
@@ -55,24 +54,26 @@
         </div>
     </nav>
 
-    <main class="mymain">
-        <div class="jumbotron text-center myjumbotron">
+    <main class="skip-nav">
+        <div class="jumbotron jumbotron-with-description index-jumbo">
             <img src="images/atom.png" alt="" height=100><br><br>
             <h1>Quantum Dynamics</h1>
             <h2>in the Condensed Phase</h2>
-            <hr class="my-4">
-            <p class="lead">Quantum dynamics pervades all of chemistry and much
+            <hr>
+            <p>Quantum dynamics pervades all of chemistry and much
                 of physics. I strive to make quantum simulations more
                 affordable.</p>
-            <p class="lead">
+            <p>
                 <a class="btn btn-primary btn-lg mybtn" href="research.html">Learn More</a>
             </p>
         </div>
-        <p class="grayed-heading">my goals</p>
-        <p class="index-intro">My work primarily focuses on developing accurate
-            and approximate techniques to overcome the &#8220curse of dimensionality,&#8221
-            and to enable the study of quantum transport in large, condensed phase
-            systems.</p>
+        <div class="section">
+            <p class="grayed-heading">my goals</p>
+            <p class="larger centered exposition">My work primarily focuses on developing accurate
+                and approximate techniques to overcome the &#8220curse of dimensionality,&#8221
+                and to enable the study of quantum transport in large, condensed phase
+                systems.</p>
+        </div>
         <hr>
     </main>
     <footer>
