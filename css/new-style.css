@@ -46,6 +46,11 @@ footer {
   text-align: center;
 }
 
+table {
+  border-collapse: separate;
+  border-spacing: 15px 0;
+}
+
 .centered {
   text-align: center;
 }
@@ -122,7 +127,7 @@ footer {
 }
 
 .carousel {
-  width: 60%;
+  width: 75%;
   height: 0;
   padding-bottom: 30%;
   margin: auto;
