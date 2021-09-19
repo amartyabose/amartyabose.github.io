@@ -113,11 +113,17 @@ footer {
 .carousel {
     width: 60%;
     height: 0;
-    padding-bottom: 35%;
+    padding-bottom: 30%;
     margin: auto;
     img {
         max-width: 100%;
     }
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
 }
 
 .grayed-heading {
