@@ -194,6 +194,7 @@ table {
   }
   .carousel img {
     max-width: 100%;
+    margin: 0;
   }
   .caption {
     display: none;
