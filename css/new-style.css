@@ -6,15 +6,21 @@ body {
 
 h1 {
   font-family: "Sacramento", cursive;
-  font-size: 12vmin;
-  /*5rem;*/
+  font-size: min(max(12vmin, 16pt), 5rem);
   text-align: center;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 6vmim;
+  font-size: min(max(6vmin, 14pt), 3rem);
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: min(max(3.6vmin, 12pt), 2.5rem);
   /*2.5rem;*/
   padding-bottom: 50px;
   text-align: center;
@@ -23,8 +29,7 @@ h2 {
 p {
   font-family: "Merriweather", serif;
   line-height: 2;
-  font-size: 2.4vmin;
-  /*1rem;*/
+  font-size: max(2.4vmin, 10pt);
 }
 
 hr {
@@ -77,6 +82,16 @@ footer {
   margin-bottom: -7.5px;
 }
 
+.mybtn {
+  background-color: #112031;
+  border-color: #112031;
+}
+
+.mybtn:hover, .mybtn:focus, .mybtn:active, .mybtn:visited {
+  background-color: #152D35;
+  border-color: #152D35;
+}
+
 .skip-nav {
   margin-top: 70px;
 }
@@ -90,12 +105,12 @@ footer {
 }
 
 .jumbotron-with-description h2 {
-  font-size: 3.6vmin;
+  font-size: max(3.6vmin, 14pt);
   /*1.5rem;*/
 }
 
 .jumbotron-with-description p {
-  font-size: 3vmin;
+  font-size: max(3vmin, 12pt);
   /*1.25rem;*/
   width: 80%;
   margin-left: 10%;
@@ -131,6 +146,7 @@ footer {
 
 .circle-img {
   border-radius: 50%;
+  height: 40vmin;
 }
 
 .index-jumbo {
@@ -158,7 +174,7 @@ footer {
   margin: auto;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
   .carousel {
     width: 85.4%;
     height: 0;

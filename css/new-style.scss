@@ -19,14 +19,21 @@ body {
 
 h1 {
     font-family: $cursive-font;
-    font-size: 12vmin; /*5rem;*/
+    font-size: unquote("min(max(12vmin, 16pt), 5rem)");
     text-align: center;
 }
 
 h2 {
     font-family: $sanserif-font;
     font-weight: bold;
-    font-size: 6vmim; /*2.5rem;*/
+    font-size: unquote("min(max(6vmin, 14pt), 3rem)");
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family: $sanserif-font;
+    font-size: unquote("min(max(3.6vmin, 12pt), 2.5rem)"); /*2.5rem;*/
     padding-bottom: 50px;
     text-align: center;
 }
@@ -34,7 +41,7 @@ h2 {
 p {
     font-family: $serif-font;
     line-height: 2;
-    font-size: 2.4vmin; /*1rem;*/
+    font-size: unquote("max(2.4vmin, 10pt)");
 }
 
 hr {
@@ -86,6 +93,15 @@ footer {
     }
 }
 
+.mybtn {
+    background-color: #112031;
+    border-color: #112031;
+}
+.mybtn:hover, .mybtn:focus, .mybtn:active, .mybtn:visited {
+    background-color: #152D35;
+    border-color: #152D35;
+}
+
 .skip-nav {
     margin-top: 70px;
 }
@@ -97,10 +113,10 @@ footer {
     margin: 0;
     text-align: center;
     h2 {
-        font-size: 3.6vmin; /*1.5rem;*/
+        font-size: unquote("max(3.6vmin, 14pt)"); /*1.5rem;*/
     }
     p {
-        font-size: 3vmin; /*1.25rem;*/
+        font-size: unquote("max(3vmin, 12pt)"); /*1.25rem;*/
         width: 80%;
         margin-left: 10%;
     }
@@ -133,6 +149,7 @@ footer {
 
 .circle-img {
     border-radius: 50%;
+    height: 40vmin;
 }
 
 $jumbo-defs: ("index": 5em, "research": 5em, "about": 15em);
@@ -151,7 +168,7 @@ $expo-widths: ("40": 40%, "75": 75%);
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
     .carousel {
         $width: 85.4%;
         width: $width;
