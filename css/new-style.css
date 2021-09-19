@@ -106,6 +106,7 @@ footer {
 .jumbotron-with-description h2 {
   font-size: max(3.6vmin, 14pt);
   /*1.5rem;*/
+  padding: 0;
 }
 
 .jumbotron-with-description p {

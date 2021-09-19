@@ -108,6 +108,7 @@ $alignment: ("centered": center, "justified": justify, "left": left);
     text-align: center;
     h2 {
         font-size: unquote("max(3.6vmin, 14pt)"); /*1.5rem;*/
+        padding: 0;
     }
     p {
         font-size: unquote("max(3vmin, 12pt)"); /*1.25rem;*/
