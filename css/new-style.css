@@ -89,6 +89,7 @@ table {
 .ab-navbar .ab-navlist {
   margin-top: 7.5px;
   margin-bottom: -7.5px;
+  font-family: "Merriweather", serif;
 }
 
 .mybtn {
@@ -158,6 +159,25 @@ table {
 .circle-img {
   border-radius: 50%;
   height: 40vmin;
+}
+
+.collapsible {
+  background-color: #345B63;
+  color: #D4ECDD;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.content {
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
 }
 
 .index-jumbo {

@@ -94,6 +94,7 @@ $alignment: ("centered": center, "justified": justify, "left": left);
     .ab-navlist {
         margin-top: 7.5px;
         margin-bottom: -7.5px;
+        font-family: $serif-font;
     }
 }
 
@@ -156,6 +157,24 @@ $alignment: ("centered": center, "justified": justify, "left": left);
 .circle-img {
     border-radius: 50%;
     height: 40vmin;
+}
+
+.collapsible {
+    background-color: $color1;
+    color: $color0;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 $jumbo-defs: ("index": 5em, "research": 5em, "about": 15em);

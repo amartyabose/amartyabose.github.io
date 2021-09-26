@@ -36,9 +36,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ab-navlist">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Research </a>
-                        <div class="dropdown-menu active" aria-labelledby="navbarDropdown1"> <a class="dropdown-item"
+                    <li class="nav-item active"><a href="research.html" class="nav-link">Research</a></li>
+                    <!--<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Research
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item"
                                 href="research.html">Overview</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item disabled" href="#">Real time
@@ -47,7 +49,7 @@
                             <a class="dropdown-item disabled" href="#">Wigner
                                 Distribution</a>
                         </div>
-                    </li>
+                    </li>-->
                     <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                 </ul>
@@ -86,19 +88,18 @@
                                 </div>
                                 <div class="col caption">
                                     <h3 class="centered"><abbr title="Density Matrix Renormalization Group">DMRG</abbr>
-                                    study of Hyperuniform Spin Chains</h3>
+                                        study of Hyperuniform Spin Chains</h3>
                                     <p class="justified">Hyperuniformity is the
-                                    suppression of long-range density
-                                    fluctuations. Such materials often show
-                                    exotic physical properties. I explored
-                                    hyperuniform quantum spin chains and found
-                                    there to be a variable number of phase
-                                    transitions, that might motivate the design
-                                    of novel magnetic materials. Read more on <a
-                                    href="https://arxiv.org/abs/2012.06545"
-                                    target="_blank">arXiv</a> or <a
-                                    href="https://dx.doi.org/10.1103/PhysRevB.103.014118"
-                                    target="_blank">Phys. Rev. B</a>.</p>
+                                        suppression of long-range density
+                                        fluctuations. Such materials often show
+                                        exotic physical properties. I explored
+                                        hyperuniform quantum spin chains and found
+                                        there to be a variable number of phase
+                                        transitions, that might motivate the design
+                                        of novel magnetic materials. Read more on <a
+                                            href="https://arxiv.org/abs/2012.06545" target="_blank">arXiv</a> or <a
+                                            href="https://dx.doi.org/10.1103/PhysRevB.103.014118" target="_blank">Phys.
+                                            Rev. B</a>.</p>
                                 </div>
                             </div>
                         </div>
@@ -112,16 +113,16 @@
                                 <div class="col caption">
                                     <h3 class="centered">Augmented Propagator Tensor Network Path Integral</h3>
                                     <p class="justified">We use ideas from
-                                    tensor network representations to simplify
-                                    real time path integral calculations of a
-                                    system coupled with a harmonic bath. Matrix
-                                    product structures lead to enormous
-                                    compressions that lead to an easily
-                                    parallelizable, powerful simulation
-                                    algorithm. Applications to charge and
-                                    exciton transfer demonstrated. Read more on
-                                    <a href="https://arxiv.org/abs/2106.12523"
-                                    target="_blank">arXiv</a>.</p>
+                                        tensor network representations to simplify
+                                        real time path integral calculations of a
+                                        system coupled with a harmonic bath. Matrix
+                                        product structures lead to enormous
+                                        compressions that lead to an easily
+                                        parallelizable, powerful simulation
+                                        algorithm. Applications to charge and
+                                        exciton transfer demonstrated. Read more on
+                                        <a href="https://arxiv.org/abs/2106.12523" target="_blank">arXiv</a>.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -135,11 +136,15 @@
                                 <div class="col caption">
                                     <h3 class="centered">Multisite Tensor Network Path Integral</h3>
                                     <p class="justified">Extension of tensor
-                                    network path integral framework to simulate
-                                    extended systems coupled to local baths like
-                                    exciton transfer and charge transfer chains
-                                    coupled with local vibrations. Manuscript
-                                    link will be uploaded soon.</p>
+                                        network path integral framework to simulate
+                                        extended systems coupled to local baths like
+                                        exciton transfer and charge transfer chains
+                                        coupled with local vibrations. The
+                                        time-dependent reduced density matrix of the
+                                        extended system is represented as a MPS.
+                                        Read more on
+                                        <a href="https://arxiv.org/abs/2109.09723" target="_blank">arXiv</a>.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -155,6 +160,50 @@
                 </a>
             </div>
         </section>
+        <hr>
+        <!--<section class="section">
+            <h2>Problems of Interest</h2>
+        </section>
+        <section class="section">
+            <h2>Methods</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title centered">Real-time Path Integral</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title centered">Tensor Network Path Integral</h5>
+                                <p class="justified">
+                                    Tensor networks (TN) have been very popular
+                                    in physics as compact representations of
+                                    many-body electronic wave functions. In
+                                    fact, it was shown that <abbr
+                                        title="Density Matrix Renormalization Group">DMRG</abbr>
+                                    can be cast into a variational TN formalism.
+                                    We use TN to fundamentally change the
+                                    algorithms for simulating open quantum
+                                    systems real-time path integrals involving
+                                    the Feynman-Vernon influence functional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title centered">Quasiclassical Methods</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
     </main>
     <footer>
         <span>&copy;</span> 2021 Amartya Bose.
