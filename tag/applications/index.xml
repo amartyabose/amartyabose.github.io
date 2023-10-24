@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>applications | Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/tag/applications/</link>
+      <atom:link href="https://amartyabose.github.io/tag/applications/index.xml" rel="self" type="application/rss+xml" />
+    <description>applications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Nov 2022 17:04:49 +0530</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>applications</title>
+      <link>https://amartyabose.github.io/tag/applications/</link>
+    </image>
+    
+    <item>
+      <title>Photosynthesis</title>
+      <link>https://amartyabose.github.io/project/photosynthesis/</link>
+      <pubDate>Fri, 04 Nov 2022 17:04:49 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/photosynthesis/</guid>
+      <description>&lt;p&gt;&lt;em&gt;COMING SOON&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

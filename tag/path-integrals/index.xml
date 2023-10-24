@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>path-integrals | Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/tag/path-integrals/</link>
+      <atom:link href="https://amartyabose.github.io/tag/path-integrals/index.xml" rel="self" type="application/rss+xml" />
+    <description>path-integrals</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Nov 2022 16:49:13 +0530</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>path-integrals</title>
+      <link>https://amartyabose.github.io/tag/path-integrals/</link>
+    </image>
+    
+    <item>
+      <title>Rate Theory</title>
+      <link>https://amartyabose.github.io/project/rate-theory/</link>
+      <pubDate>Fri, 04 Nov 2022 16:49:13 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/rate-theory/</guid>
+      <description>&lt;p&gt;Rates are a corner-stone of chemistry. Most reactions are characterized by a single number &amp;mdash; the rate. While classical theory of rates are still used, quantum mechanically, rate is related to the flux correlation function. It can be extracted as the value of the flux-side autocorrelation function,
+
+
+
+$$ C_f(t) = \frac{1}{Z_R}\text{Tr}\left[\,\exp\left(-\beta H\right)\,\hat{h}_R\,\hat{U}^\dagger\,\hat{F}\,\hat{U}\,\right], $$
+
+when it plateaus. While this yields a single number representing the rate of the process, it completely misses out on the transients. Additionally, rate-theory fails to do justice to processes that have multiple time-scales. However, despite its short-comings, this is the best that one can do when the process is very slow. It is not possible to simulate the quantum dynamics when the reaction has a time-scale of a few milliseconds or nanoseconds.&lt;/p&gt;
+&lt;p&gt;Equilibrating the system along with the solvent is computationally challenging. We have shown that one can avoid computing the equilibrium correlation function at the cost of longer plateau times. As an added benefit, one gains further insights because this non-equilibrium formulation of rate enables analysis of the transients multiple time-scales.&lt;/p&gt;
+&lt;p&gt;For cases where the solvent needs to be described atomistically, we have also developed an approximate equilibration scheme which works with a variety of quantum-classical dynamics schemes and takes away some of the increased cost of doing the fully non-equilibrium simulations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tensor Network Path Integral</title>
+      <link>https://amartyabose.github.io/project/tensor-network-path-integral/</link>
+      <pubDate>Fri, 04 Nov 2022 16:34:44 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/tensor-network-path-integral/</guid>
+      <description>&lt;p&gt;Simulations of real-time dynamics of quantum systems coupled with dissipative media is plagued by the curse of dimensionality. As a way to avoid the problem, many methods integrate out the bath and simulate the dynamics of the reduced density matrix. Such simulations are characterized by the presence of non-Markovian memory. Path integrals, through the use of Feynman-Vernon&amp;rsquo;s influence functional, provides a rigorous way of capturing this non-Markovian effect of the environment on the system.&lt;/p&gt;
+&lt;p&gt;The most challenging aspect is that the cost of these calculations grow exponentially with the memory length. We classify approaches that utilize tensor networks to make path integral simulations more efficient as belonging to the &lt;strong&gt;tensor network path integral (TNPI)&lt;/strong&gt; family of methods. There can be many different kinds of tensor networks that are used. Time-evolved matrix product operators (TEMPO) is a particular one that uses matrix product states and matrix product operators for simulating real-time dynamics with Feynman-Vernon influence functional. We have developed a method called the &lt;strong&gt;pairwise-connected tensor network path integral (PC-TNPI)&lt;/strong&gt; as a generalization on these approaches. Additionally, the TNPI framework allows for further factorization of the system to deal with extended systems. This extension, called the &lt;strong&gt;multisite tensor network path integral (MS-TNPI)&lt;/strong&gt;, is described in &lt;a href=&#34;https://amartyabose.github.io/project/mstnpi/&#34;&gt;its own section&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

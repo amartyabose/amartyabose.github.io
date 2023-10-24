@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter L. Walters | Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/author/peter-l.-walters/</link>
+      <atom:link href="https://amartyabose.github.io/author/peter-l.-walters/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peter L. Walters</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>Peter L. Walters</title>
+      <link>https://amartyabose.github.io/author/peter-l.-walters/</link>
+    </image>
+    
+    <item>
+      <title>Impact of Spatial Inhomogeneity on Excitation Energy Transport in the Fenna–Matthews–Olson Complex</title>
+      <link>https://amartyabose.github.io/publication/2023-impact-spatial-fmo/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-impact-spatial-fmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of Solvent on State-to-State Population Transport in Multistate Systems Using Coherences</title>
+      <link>https://amartyabose.github.io/publication/2023-impact-solvent-state-to-state/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-impact-solvent-state-to-state/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of temperature gradient on quantum transport</title>
+      <link>https://amartyabose.github.io/publication/2022-effect-of-temperature/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-effect-of-temperature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensor Network Path Integral Study of Dynamics in B850 LH2 Ring with Atomistically Derived Vibrations</title>
+      <link>https://amartyabose.github.io/publication/2022-tensor-network-b850/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-tensor-network-b850/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multisite decomposition of the tensor network path integrals</title>
+      <link>https://amartyabose.github.io/publication/2022-multisite-decomposition/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-multisite-decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Tensor Network Representation of Path Integrals: Implementation and Analysis</title>
+      <link>https://amartyabose.github.io/publication/2021-tnpi/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2021-tnpi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

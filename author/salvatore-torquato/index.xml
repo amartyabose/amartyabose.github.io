@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salvatore Torquato | Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/author/salvatore-torquato/</link>
+      <atom:link href="https://amartyabose.github.io/author/salvatore-torquato/index.xml" rel="self" type="application/rss+xml" />
+    <description>Salvatore Torquato</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>Salvatore Torquato</title>
+      <link>https://amartyabose.github.io/author/salvatore-torquato/</link>
+    </image>
+    
+    <item>
+      <title>Quantum phase transitions in long-range interacting hyperuniform spin chains in a transverse field</title>
+      <link>https://amartyabose.github.io/publication/2021-qpt-hyperuniform-spins/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2021-qpt-hyperuniform-spins/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

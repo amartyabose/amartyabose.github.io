@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/</link>
+      <atom:link href="https://amartyabose.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Quantum Dynamics Research Group</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>Quantum Dynamics Research Group</title>
+      <link>https://amartyabose.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Impact of Spatial Inhomogeneity on Excitation Energy Transport in the Fenna–Matthews–Olson Complex</title>
+      <link>https://amartyabose.github.io/publication/2023-impact-spatial-fmo/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-impact-spatial-fmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of Solvent on State-to-State Population Transport in Multistate Systems Using Coherences</title>
+      <link>https://amartyabose.github.io/publication/2023-impact-solvent-state-to-state/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-impact-solvent-state-to-state/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QuantumDynamics.jl: A modular approach to simulations of dynamics of open quantum systems</title>
+      <link>https://amartyabose.github.io/publication/2023-quantum-dynamics_jl/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-quantum-dynamics_jl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multisite Tensor Network Path Integral</title>
+      <link>https://amartyabose.github.io/project/mstnpi/</link>
+      <pubDate>Fri, 04 Nov 2022 20:27:50 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/mstnpi/</guid>
+      <description>&lt;p&gt;Simulating the dynamics of a quantum system coupled to a dissipative environment gets challenging because of the non-Markovian memory that needs to be accounted for. While iterative propagation and basic &lt;a href=&#34;https://amartyabose.github.io/project/tensor-network-path-integral&#34;&gt;&lt;strong&gt;tensor network path integral (TNPI)&lt;/strong&gt;&lt;/a&gt; enable simulation of longer memory times, the dimensionalities of systems that can be simulated are still very limited. For extended systems the dimensionality grows exponentially with the number of &lt;em&gt;sites&lt;/em&gt; or &lt;em&gt;monomers&lt;/em&gt;, making these techniques untenable. Consider $50$ monomers described by two levels each. That implies that the Hilbert space has a dimensionality of $2^{50}$. This exponential growth of the dimensionality of the Hilbert space may be controlled if the dynamics can be restricted to a significantly smaller subspace. This is the case when considering the single particle subspace in a Frenkel-like process which conserves the number of particles. However, solving the 50-dimensional problem, while more feasible than the $2^{50}$ dimensional problem, is still a significant challenge.&lt;/p&gt;
+&lt;p&gt;The standard &lt;a href=&#34;https://amartyabose.github.io/project/tensor-network-path-integral&#34;&gt;TNPI&lt;/a&gt; decomposes the path integral expression only along the temporal dimension. However, to account for these extended systems, one needs to decompose it also along a spatial dimension, separating out the individual sites. Thus a two-dimensional tensor network decomposition is achieved. Contraction of this 2D tensor network after incorporation of the influence functional yields the time-dependent reduced density operator corresponding to the extended system in the presence of a dissipative environment. The simulations happen in the full Hilbert space allowing for a transparent inclusion of more involved effects like multi-photon process, multi-dimensional spectra, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Photosynthesis</title>
+      <link>https://amartyabose.github.io/project/photosynthesis/</link>
+      <pubDate>Fri, 04 Nov 2022 17:04:49 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/photosynthesis/</guid>
+      <description>&lt;p&gt;&lt;em&gt;COMING SOON&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wigner Distribution</title>
+      <link>https://amartyabose.github.io/project/wigner-distribution/</link>
+      <pubDate>Fri, 04 Nov 2022 16:55:35 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/wigner-distribution/</guid>
+      <description>&lt;p&gt;&lt;em&gt;COMING SOON&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rate Theory</title>
+      <link>https://amartyabose.github.io/project/rate-theory/</link>
+      <pubDate>Fri, 04 Nov 2022 16:49:13 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/rate-theory/</guid>
+      <description>&lt;p&gt;Rates are a corner-stone of chemistry. Most reactions are characterized by a single number &amp;mdash; the rate. While classical theory of rates are still used, quantum mechanically, rate is related to the flux correlation function. It can be extracted as the value of the flux-side autocorrelation function,
+
+
+
+$$ C_f(t) = \frac{1}{Z_R}\text{Tr}\left[\,\exp\left(-\beta H\right)\,\hat{h}_R\,\hat{U}^\dagger\,\hat{F}\,\hat{U}\,\right], $$
+
+when it plateaus. While this yields a single number representing the rate of the process, it completely misses out on the transients. Additionally, rate-theory fails to do justice to processes that have multiple time-scales. However, despite its short-comings, this is the best that one can do when the process is very slow. It is not possible to simulate the quantum dynamics when the reaction has a time-scale of a few milliseconds or nanoseconds.&lt;/p&gt;
+&lt;p&gt;Equilibrating the system along with the solvent is computationally challenging. We have shown that one can avoid computing the equilibrium correlation function at the cost of longer plateau times. As an added benefit, one gains further insights because this non-equilibrium formulation of rate enables analysis of the transients multiple time-scales.&lt;/p&gt;
+&lt;p&gt;For cases where the solvent needs to be described atomistically, we have also developed an approximate equilibration scheme which works with a variety of quantum-classical dynamics schemes and takes away some of the increased cost of doing the fully non-equilibrium simulations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tensor Network Path Integral</title>
+      <link>https://amartyabose.github.io/project/tensor-network-path-integral/</link>
+      <pubDate>Fri, 04 Nov 2022 16:34:44 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/tensor-network-path-integral/</guid>
+      <description>&lt;p&gt;Simulations of real-time dynamics of quantum systems coupled with dissipative media is plagued by the curse of dimensionality. As a way to avoid the problem, many methods integrate out the bath and simulate the dynamics of the reduced density matrix. Such simulations are characterized by the presence of non-Markovian memory. Path integrals, through the use of Feynman-Vernon&amp;rsquo;s influence functional, provides a rigorous way of capturing this non-Markovian effect of the environment on the system.&lt;/p&gt;
+&lt;p&gt;The most challenging aspect is that the cost of these calculations grow exponentially with the memory length. We classify approaches that utilize tensor networks to make path integral simulations more efficient as belonging to the &lt;strong&gt;tensor network path integral (TNPI)&lt;/strong&gt; family of methods. There can be many different kinds of tensor networks that are used. Time-evolved matrix product operators (TEMPO) is a particular one that uses matrix product states and matrix product operators for simulating real-time dynamics with Feynman-Vernon influence functional. We have developed a method called the &lt;strong&gt;pairwise-connected tensor network path integral (PC-TNPI)&lt;/strong&gt; as a generalization on these approaches. Additionally, the TNPI framework allows for further factorization of the system to deal with extended systems. This extension, called the &lt;strong&gt;multisite tensor network path integral (MS-TNPI)&lt;/strong&gt;, is described in &lt;a href=&#34;https://amartyabose.github.io/project/mstnpi/&#34;&gt;its own section&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Effect of temperature gradient on quantum transport</title>
+      <link>https://amartyabose.github.io/publication/2022-effect-of-temperature/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-effect-of-temperature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero-cost corrections to influence functional coefficients from bath response functions</title>
+      <link>https://amartyabose.github.io/publication/2022-zero-cost-corrections/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-zero-cost-corrections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensor Network Path Integral Study of Dynamics in B850 LH2 Ring with Atomistically Derived Vibrations</title>
+      <link>https://amartyabose.github.io/publication/2022-tensor-network-b850/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-tensor-network-b850/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pairwise connected tensor network representation of path integrals</title>
+      <link>https://amartyabose.github.io/publication/2022-pairwise-connected/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-pairwise-connected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multisite decomposition of the tensor network path integrals</title>
+      <link>https://amartyabose.github.io/publication/2022-multisite-decomposition/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-multisite-decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Tensor Network Representation of Path Integrals: Implementation and Analysis</title>
+      <link>https://amartyabose.github.io/publication/2021-tnpi/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2021-tnpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum phase transitions in long-range interacting hyperuniform spin chains in a transverse field</title>
+      <link>https://amartyabose.github.io/publication/2021-qpt-hyperuniform-spins/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2021-qpt-hyperuniform-spins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum‐classical Path Integral Evaluation of Reaction Rates with a Near‐equilibrium Flux Formulation</title>
+      <link>https://amartyabose.github.io/publication/2021-qcpi-neareqm-rate/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2021-qcpi-neareqm-rate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All-Mode Quantum–Classical Path Integral Simulation of Bacteriochlorophyll Dimer Exciton-Vibration Dynamics</title>
+      <link>https://amartyabose.github.io/publication/2020-bchl-dimer/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2020-bchl-dimer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coherent State-Based Path Integral Methodology for Computing the Wigner Phase Space Distribution</title>
+      <link>https://amartyabose.github.io/publication/2019-cspi-wigner/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2019-cspi-wigner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quasiclassical Correlation Functions from the Wigner Density Using the Stability Matrix</title>
+      <link>https://amartyabose.github.io/publication/2019-quasiclassical-correlation/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2019-quasiclassical-correlation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wigner Distribution by Adiabatic Switching in Normal Mode or Cartesian Coordinates and Molecular Applications</title>
+      <link>https://amartyabose.github.io/publication/2018-asw-normal-cartesian/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2018-asw-normal-cartesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phase Space and Path Integral Approaches to Quantum Dynamics</title>
+      <link>https://amartyabose.github.io/publication/2018-amartya-phd/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2018-amartya-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://amartyabose.github.io/news/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/news/</guid>
+      <description>
+
+
+
+
+
+
+
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Postdoctoral, PhD and project positions are available in our group. &lt;a href=&#34;https://amartyabose.github.io/join_us/&#34;&gt;Join Us.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;September 2023:&lt;/strong&gt; Study of excitonic dynamics and pathways in the Fenna-Matthews-Olson complex published in the Journal of Physical Chemistry B. &lt;a href=&#34;https://amartyabose.github.io/publication/2023-impact-spatial-fmo/&#34;&gt;Check it out&amp;hellip;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;August 2023:&lt;/strong&gt; Work on identifying pathways of quantum transport in molecular aggregates published in the Journal of Chemical Theory and Computation. &lt;a href=&#34;https://amartyabose.github.io/publication/2023-impact-solvent-state-to-state/&#34;&gt;Check it out&amp;hellip;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;May 2023:&lt;/strong&gt; Package for simulating quantum dynamics in complex open systems package with support for a number of state-of-the-art methods published in the Journal of Chemical Physics. &lt;a href=&#34;https://amartyabose.github.io/publication/2023-quantum-dynamics_jl/&#34;&gt;Check it out&amp;hellip;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Non-equilibrium reactive flux: A unified framework for slow and fast reaction kinetics</title>
+      <link>https://amartyabose.github.io/publication/2017-noneqm-rate/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2017-noneqm-rate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wigner phase space distribution via classical adiabatic switching</title>
+      <link>https://amartyabose.github.io/publication/2015-asw/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2015-asw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amartyabose.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amartyabose.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amartyabose.github.io/join_us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/join_us/</guid>
+      <description>&lt;h1 id=&#34;post-doctoral-researchers&#34;&gt;Post-doctoral Researchers&lt;/h1&gt;
+&lt;p&gt;We are currently looking for a highly motivated and talented post-doctoral candidates with background in either Physics or theoretical and computational Chemistry interested in addressing challenging problems. If you think you are interested and a good fit, contact &lt;a href=&#34;https://amartyabose.github.io/author/amartya-bose/&#34;&gt;Amartya&lt;/a&gt; with your CV and a project proposal.&lt;/p&gt;
+&lt;h1 id=&#34;phd-students&#34;&gt;PhD Students&lt;/h1&gt;
+&lt;p&gt;Interested PhD students should come through the regular entrance examination for TIFR, conducted annually in December.&lt;/p&gt;
+&lt;h1 id=&#34;project-students&#34;&gt;Project Students&lt;/h1&gt;
+&lt;p&gt;Positions are available for Junior Research Fellows (JRFs), and Master&amp;rsquo;s students interested in doing their thesis. Please contact &lt;a href=&#34;https://amartyabose.github.io/author/amartya-bose/&#34;&gt;Amartya&lt;/a&gt; with your CV.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amartyabose.github.io/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/people/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>real-time-pi | Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/category/real-time-pi/</link>
+      <atom:link href="https://amartyabose.github.io/category/real-time-pi/index.xml" rel="self" type="application/rss+xml" />
+    <description>real-time-pi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>real-time-pi</title>
+      <link>https://amartyabose.github.io/category/real-time-pi/</link>
+    </image>
+    
+    <item>
+      <title>Tensor Network Path Integral Study of Dynamics in B850 LH2 Ring with Atomistically Derived Vibrations</title>
+      <link>https://amartyabose.github.io/publication/2022-tensor-network-b850/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-tensor-network-b850/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pairwise connected tensor network representation of path integrals</title>
+      <link>https://amartyabose.github.io/publication/2022-pairwise-connected/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-pairwise-connected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multisite decomposition of the tensor network path integrals</title>
+      <link>https://amartyabose.github.io/publication/2022-multisite-decomposition/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-multisite-decomposition/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

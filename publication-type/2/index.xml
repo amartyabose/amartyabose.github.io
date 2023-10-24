@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/publication-type/2/</link>
+      <atom:link href="https://amartyabose.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://amartyabose.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Impact of Spatial Inhomogeneity on Excitation Energy Transport in the Fenna–Matthews–Olson Complex</title>
+      <link>https://amartyabose.github.io/publication/2023-impact-spatial-fmo/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-impact-spatial-fmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of Solvent on State-to-State Population Transport in Multistate Systems Using Coherences</title>
+      <link>https://amartyabose.github.io/publication/2023-impact-solvent-state-to-state/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-impact-solvent-state-to-state/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QuantumDynamics.jl: A modular approach to simulations of dynamics of open quantum systems</title>
+      <link>https://amartyabose.github.io/publication/2023-quantum-dynamics_jl/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-quantum-dynamics_jl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of temperature gradient on quantum transport</title>
+      <link>https://amartyabose.github.io/publication/2022-effect-of-temperature/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-effect-of-temperature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero-cost corrections to influence functional coefficients from bath response functions</title>
+      <link>https://amartyabose.github.io/publication/2022-zero-cost-corrections/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-zero-cost-corrections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensor Network Path Integral Study of Dynamics in B850 LH2 Ring with Atomistically Derived Vibrations</title>
+      <link>https://amartyabose.github.io/publication/2022-tensor-network-b850/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-tensor-network-b850/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pairwise connected tensor network representation of path integrals</title>
+      <link>https://amartyabose.github.io/publication/2022-pairwise-connected/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-pairwise-connected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multisite decomposition of the tensor network path integrals</title>
+      <link>https://amartyabose.github.io/publication/2022-multisite-decomposition/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2022-multisite-decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum phase transitions in long-range interacting hyperuniform spin chains in a transverse field</title>
+      <link>https://amartyabose.github.io/publication/2021-qpt-hyperuniform-spins/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2021-qpt-hyperuniform-spins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum‐classical Path Integral Evaluation of Reaction Rates with a Near‐equilibrium Flux Formulation</title>
+      <link>https://amartyabose.github.io/publication/2021-qcpi-neareqm-rate/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2021-qcpi-neareqm-rate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All-Mode Quantum–Classical Path Integral Simulation of Bacteriochlorophyll Dimer Exciton-Vibration Dynamics</title>
+      <link>https://amartyabose.github.io/publication/2020-bchl-dimer/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2020-bchl-dimer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coherent State-Based Path Integral Methodology for Computing the Wigner Phase Space Distribution</title>
+      <link>https://amartyabose.github.io/publication/2019-cspi-wigner/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2019-cspi-wigner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quasiclassical Correlation Functions from the Wigner Density Using the Stability Matrix</title>
+      <link>https://amartyabose.github.io/publication/2019-quasiclassical-correlation/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2019-quasiclassical-correlation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wigner Distribution by Adiabatic Switching in Normal Mode or Cartesian Coordinates and Molecular Applications</title>
+      <link>https://amartyabose.github.io/publication/2018-asw-normal-cartesian/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2018-asw-normal-cartesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-equilibrium reactive flux: A unified framework for slow and fast reaction kinetics</title>
+      <link>https://amartyabose.github.io/publication/2017-noneqm-rate/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2017-noneqm-rate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wigner phase space distribution via classical adiabatic switching</title>
+      <link>https://amartyabose.github.io/publication/2015-asw/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2015-asw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

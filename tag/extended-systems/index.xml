@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extended-systems | Quantum Dynamics Research Group</title>
+    <link>https://amartyabose.github.io/tag/extended-systems/</link>
+      <atom:link href="https://amartyabose.github.io/tag/extended-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>extended-systems</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Nov 2022 20:27:50 +0530</lastBuildDate>
+    <image>
+      <url>https://amartyabose.github.io/media/icon_hu879fa5d06a4f80e72911c4059cb7ddcc_230768_512x512_fill_lanczos_center_3.png</url>
+      <title>extended-systems</title>
+      <link>https://amartyabose.github.io/tag/extended-systems/</link>
+    </image>
+    
+    <item>
+      <title>Multisite Tensor Network Path Integral</title>
+      <link>https://amartyabose.github.io/project/mstnpi/</link>
+      <pubDate>Fri, 04 Nov 2022 20:27:50 +0530</pubDate>
+      <guid>https://amartyabose.github.io/project/mstnpi/</guid>
+      <description>&lt;p&gt;Simulating the dynamics of a quantum system coupled to a dissipative environment gets challenging because of the non-Markovian memory that needs to be accounted for. While iterative propagation and basic &lt;a href=&#34;https://amartyabose.github.io/project/tensor-network-path-integral&#34;&gt;&lt;strong&gt;tensor network path integral (TNPI)&lt;/strong&gt;&lt;/a&gt; enable simulation of longer memory times, the dimensionalities of systems that can be simulated are still very limited. For extended systems the dimensionality grows exponentially with the number of &lt;em&gt;sites&lt;/em&gt; or &lt;em&gt;monomers&lt;/em&gt;, making these techniques untenable. Consider $50$ monomers described by two levels each. That implies that the Hilbert space has a dimensionality of $2^{50}$. This exponential growth of the dimensionality of the Hilbert space may be controlled if the dynamics can be restricted to a significantly smaller subspace. This is the case when considering the single particle subspace in a Frenkel-like process which conserves the number of particles. However, solving the 50-dimensional problem, while more feasible than the $2^{50}$ dimensional problem, is still a significant challenge.&lt;/p&gt;
+&lt;p&gt;The standard &lt;a href=&#34;https://amartyabose.github.io/project/tensor-network-path-integral&#34;&gt;TNPI&lt;/a&gt; decomposes the path integral expression only along the temporal dimension. However, to account for these extended systems, one needs to decompose it also along a spatial dimension, separating out the individual sites. Thus a two-dimensional tensor network decomposition is achieved. Contraction of this 2D tensor network after incorporation of the influence functional yields the time-dependent reduced density operator corresponding to the extended system in the presence of a dissipative environment. The simulations happen in the full Hilbert space allowing for a transparent inclusion of more involved effects like multi-photon process, multi-dimensional spectra, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
