@@ -5,12 +5,20 @@
     <link>https://amartyabose.github.io/author/amartya-bose/</link>
       <atom:link href="https://amartyabose.github.io/author/amartya-bose/index.xml" rel="self" type="application/rss+xml" />
     <description>Amartya Bose</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amartyabose.github.io/author/amartya-bose/avatar_hudf60bf0eb908b0d6569bb157834419e2_1121628_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Amartya Bose</title>
       <link>https://amartyabose.github.io/author/amartya-bose/</link>
     </image>
+    
+    <item>
+      <title>Quantum correlation functions through tensor network path integral</title>
+      <link>https://amartyabose.github.io/publication/2023-quantum-correlation-functions-tensor-network/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://amartyabose.github.io/publication/2023-quantum-correlation-functions-tensor-network/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Impact of Spatial Inhomogeneity on Excitation Energy Transport in the Fenna–Matthews–Olson Complex</title>
