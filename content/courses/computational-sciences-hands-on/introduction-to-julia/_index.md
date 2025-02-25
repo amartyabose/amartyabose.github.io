@@ -34,6 +34,7 @@ Julia already comes equipped with several modules useful for scientific programm
 1. [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/) for built-in solutions to differential equations using advanced algorithms.
 1. [DFTK.jl](https://docs.dftk.org/stable/) for plane-wave DFT calculations.
 1. [Molly.jl](https://juliamolsim.github.io/Molly.jl/v0.4/) for molecular dynamics simulations.
+1. [Lux.jl](https://lux.csail.mit.edu/stable/), [Flux.jl](https://fluxml.ai/Flux.jl/stable/), or [KNet.jl](https://fluxml.ai/Flux.jl/stable/) for neural networks.
 
 ## Extra Resources
 
