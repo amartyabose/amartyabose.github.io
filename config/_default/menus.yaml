@@ -4,21 +4,24 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
-    weight: 10
-  - name: News
-    url: post
-    weight: 20
-  - name: People
-    url: people
-    weight: 30
-  - name: Events
-    url: event
-    weight: 40
   - name: Publications
     url: publication
     weight: 50
-  - name: Contact
-    url: contact
+  - name: Courses
     weight: 60
+    url: courses
+  - name: "Computational Sciences: a Hands-On Approach"
+    parent: Courses
+    url: courses/computational-sciences-hands-on
+  - name: "Introduction to Thermodynamics and Statistical Mechanics"
+    parent: Courses
+  - name: Software
+    weight: 70
+    url: "https://amartyabose.github.io/QuantumDynamics.jl/dev/"
+    target: _blank
+  - name: Meet the Team
+    url: people
+    weight: 80
+  - name: Join Us
+    url: contact
+    weight: 90
