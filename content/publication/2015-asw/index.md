@@ -22,7 +22,7 @@ abstract: "Evaluation of the Wigner phase space density for systems of many degr
 summary: ""
 
 tags: []
-categories: []
+categories: [Quasiclassical, Wigner, Adiabatic Switching]
 featured: false
 
 # Custom links (optional).

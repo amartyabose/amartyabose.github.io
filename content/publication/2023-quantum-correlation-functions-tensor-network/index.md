@@ -22,7 +22,7 @@ abstract: "Tensor networks have historically proven to be of great utility in pr
 summary: "Introducing a novel tensor network approach to computing quantum correlation functions for open quantum systems using Feynman-Vernon influence function. Read in full detail..."
 
 tags: []
-categories: []
+categories: [Path Integrals, Correlation Functions]
 featured: true
 
 # Custom links (optional).

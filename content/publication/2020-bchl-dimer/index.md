@@ -22,7 +22,7 @@ abstract: "We use the quantum–classical path integral (QCPI) methodology to re
 summary: ""
 
 tags: []
-categories: []
+categories: [Path Integrals, Photosynthesis, Quantum-Classical]
 featured: true
 
 # Custom links (optional).

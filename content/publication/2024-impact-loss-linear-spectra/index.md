@@ -29,7 +29,7 @@ abstract: "The presence of loss mechanisms governed by empirical timescales can 
 summary: ""
 
 tags: []
-categories: []
+categories: [Path Integrals, Lossy Systems]
 featured: false
 
 # Custom links (optional).

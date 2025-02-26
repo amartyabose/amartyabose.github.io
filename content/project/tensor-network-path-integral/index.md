@@ -4,7 +4,7 @@
 title: "Tensor Network Path Integral"
 summary: "Simulating exact quantum dynamics of a low-dimensional system interacting with a large dissipative environment proves to be challenging due to presence of non-Markovian effects. Tensor networks can be successfully used to reduce the memory burden of these non-Markovian simulations making it possible to study chemical reactions in the condensed phase with greater accuracy."
 authors: [amartya]
-tags: [path-integrals]
+tags: [Path Integrals, Tensor Network]
 categories: []
 date: 2022-11-04T16:34:44+05:30
 

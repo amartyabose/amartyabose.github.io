@@ -22,7 +22,7 @@ abstract: "Tensor network decompositions of path integrals for simulating open q
 summary: "The dimensionality of the Hilbert space required to describe an extended system grows exponentially with the size of the system. We present a method that utilizes tensor networks with Feynman-Vernon influence functional to account for the dynamics of extended systems in presence of local dissipative media. Read in full detail..."
 
 tags: []
-categories: [real-time-pi]
+categories: [Path Integrals, Tensor Networks]
 featured: false
 
 # Custom links (optional).

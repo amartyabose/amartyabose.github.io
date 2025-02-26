@@ -22,7 +22,7 @@ abstract: "Quantum-classical formulations of reactive flux correlation functions
 summary: ""
 
 tags: []
-categories: []
+categories: [Path Integrals, Correlation Functions, Rate Theory, Quantum-Classical]
 featured: false
 
 # Custom links (optional).

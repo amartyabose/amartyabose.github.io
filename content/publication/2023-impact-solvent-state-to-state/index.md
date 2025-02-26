@@ -26,7 +26,7 @@ abstract: "Understanding the pathways taken by a quantum particle during a trans
 summary: ""
 
 tags: []
-categories: []
+categories: [Path Integrals, Routes of Transport, Photosynthesis]
 featured: true
 
 # Custom links (optional).

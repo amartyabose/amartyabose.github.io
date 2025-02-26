@@ -22,7 +22,7 @@ abstract: "Accounting for zero-point energy in the initial conditions of classic
 summary: ""
 
 tags: []
-categories: []
+categories: [Quasiclassical, Correlation Functions, Wigner]
 featured: true
 
 # Custom links (optional).

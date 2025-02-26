@@ -4,7 +4,7 @@
 title: "Photosynthesis"
 summary: ""
 authors: [amartya]
-tags: [applications]
+tags: [Applications]
 categories: []
 date: 2022-11-04T17:04:49+05:30
 

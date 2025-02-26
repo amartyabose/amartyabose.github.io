@@ -25,7 +25,7 @@ abstract: "Tensors with finite correlation afford very compact tensor network re
 summary: ""
 
 tags: []
-categories: []
+categories: [Path Integrals, Tensor Networks]
 featured: false
 
 # Custom links (optional).

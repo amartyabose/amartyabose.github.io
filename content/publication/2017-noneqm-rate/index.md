@@ -22,7 +22,7 @@ abstract: "The flux formulation of reaction rate theory is recast in terms of th
 summary: ""
 
 tags: []
-categories: []
+categories: [Rate Theory, Path Integrals]
 featured: false
 
 # Custom links (optional).

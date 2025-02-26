@@ -37,13 +37,27 @@ sections:
         - name: All
           tag: '*'
         - name: Path Integrals
-          tag: path-integrals
+          tag: Path Integrals
         - name: Applications
-          tag: applications
+          tag: Applications
     design:
       columns: '2'
       # view: showcase
       flip_alt_rows: true
+
+  - block: tag_cloud
+    content:
+      title: Topics under study
+      subtitle: 
+      text: 
+      # Choose a taxonomy from the `taxonomies` list in `config.yaml` to display (e.g. tags, categories, authors)
+      taxonomy: categories
+      # Choose how many tags you would like to display (0 = all tags)
+      count: 20
+    design:
+      # Minimum and maximum font sizes (1.0 = 100%).
+      font_size_min: 0.7
+      font_size_max: 2.0
 
   - block: collection
     content:

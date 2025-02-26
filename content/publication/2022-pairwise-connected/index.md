@@ -21,7 +21,7 @@ abstract: "It has been recently shown how the tensorial nature of real-time path
 summary: "While specific tensor networks like the matrix product state (MPS) have started to prove their utility in simulating non-equilibrium dynamics of quantum systems interacting with a condensed phase, these structures do not manifestly embody the explicit structure of the temporally non-local interactions induced by the condensed phase. Here we introduce a new tensor network which is designed to capture the specific symmetries in the non-Markovian interactions. Read more..."
 
 tags: []
-categories: [real-time-pi]
+categories: [Path Integrals, Tensor Networks]
 featured: true
 
 # Custom links (optional).

@@ -22,7 +22,7 @@ abstract: "The accurate evaluation of the Wigner phase space density for multidi
 summary: ""
 
 tags: []
-categories: []
+categories: [Wigner, Path Integrals, Quasiclassical]
 featured: false
 
 # Custom links (optional).

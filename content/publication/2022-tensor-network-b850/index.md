@@ -22,7 +22,7 @@ abstract: "The recently introduced multisite tensor network path integral (MS-TN
 summary: "A study of excitonic dynamics and absorption spectra of the LH-II B850 photosynthetic ring using the Multisite Tensor Network Path Integral approach. Read in full detail..."
 
 tags: []
-categories: [real-time-pi]
+categories: [Path Integrals, Photosynthesis]
 featured: true
 
 # Custom links (optional).

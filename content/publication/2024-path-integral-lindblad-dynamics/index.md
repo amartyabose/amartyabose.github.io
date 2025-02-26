@@ -25,7 +25,7 @@ abstract: "Path integrals offer a robust approach for simulating open quantum dy
 summary: ""
 
 tags: []
-categories: []
+categories: [Path Integrals, Lossy Systems]
 featured: true
 
 # Custom links (optional).

@@ -4,7 +4,7 @@
 title: "Multisite Tensor Network Path Integral"
 summary: "How does one handle the dynamics of extended quantum systems interacting with local dissipative media? MS-TNPI provides an answer to this problem by introducing a 2D tensor network decomposition of the path integral expressions."
 authors: [amartya]
-tags: [extended-systems, path-integrals]
+tags: [Extended Systems, Path Integrals, Tensor Networks]
 categories: []
 date: 2022-11-04T20:27:50+05:30
 

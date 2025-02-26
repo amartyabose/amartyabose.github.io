@@ -25,7 +25,7 @@ abstract: "A simulation of the non-adiabatic dynamics of a quantum system couple
 summary: ""
 
 tags: []
-categories: []
+categories: [Software]
 featured: true
 
 # Custom links (optional).

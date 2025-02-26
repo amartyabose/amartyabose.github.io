@@ -22,7 +22,7 @@ abstract: "The dynamics of the excitation energy transfer (EET) in photosyntheti
 summary: ""
 
 tags: []
-categories: []
+categories: [Path Integrals, Routes of Transport, Photosynthesis]
 featured: true
 
 # Custom links (optional).

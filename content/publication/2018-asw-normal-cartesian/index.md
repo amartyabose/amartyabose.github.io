@@ -22,7 +22,7 @@ abstract: "We recently presented a simple, classical trajectory-based method for
 summary: ""
 
 tags: []
-categories: []
+categories: [Quasiclassical, Wigner, Adiabatic Switching]
 featured: false
 
 # Custom links (optional).
