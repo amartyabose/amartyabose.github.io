@@ -10,12 +10,12 @@ main:
   - name: Courses
     weight: 60
     url: courses
-  - name: "Computational Sciences: a Hands-On Approach"
-    parent: Courses
-    url: courses/computational-sciences-hands-on
-  - name: "Introduction to Thermodynamics and Statistical Mechanics"
-    parent: Courses
-    url: courses/intro-thermo-stat-mech
+  # - name: "Computational Sciences: a Hands-On Approach"
+  #   parent: Courses
+  #   url: courses/computational-sciences-hands-on
+  # - name: "Introduction to Thermodynamics and Statistical Mechanics"
+  #   parent: Courses
+  #   url: courses/intro-thermo-stat-mech
   - name: Software
     weight: 70
     url: "https://amartyabose.github.io/QuantumDynamics.jl/dev/"

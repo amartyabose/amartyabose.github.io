@@ -7,6 +7,6 @@ content:
     folders:
       - courses
 design:
-  view: showcase
+  view: 
   columns: '1'
 ---
