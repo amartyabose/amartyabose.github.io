@@ -22,7 +22,7 @@ abstract: "The dynamics of the excitation energy transfer (EET) in photosyntheti
 summary: "The different chromophores of the Fenna-Matthews-Olson complex are exposed to different environments. Using path integral simulations and our state-to-state analysis technique, we explore the effect of this inhomogeneity of environment on the exciton transport process. Read more..."
 
 tags: []
-categories: [Path Integrals, Routes of Transport, Photosynthesis]
+categories: [Path Integrals, Routes of Transport, Exciton Transport, Light-Harvesting Complex]
 featured: true
 
 # Custom links (optional).

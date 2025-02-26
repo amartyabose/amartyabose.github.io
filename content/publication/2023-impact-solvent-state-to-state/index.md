@@ -26,7 +26,7 @@ abstract: "Understanding the pathways taken by a quantum particle during a trans
 summary: ""
 
 tags: []
-categories: [Path Integrals, Routes of Transport, Photosynthesis]
+categories: [Path Integrals, Routes of Transport, Exciton Transport, Light-Harvesting Complex]
 featured: true
 
 # Custom links (optional).
@@ -59,7 +59,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [photosynthesis]
+projects: [exciton-transport]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

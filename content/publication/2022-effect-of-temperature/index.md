@@ -22,7 +22,7 @@ abstract: "The recently introduced multisite tensor network path integral (MS-TN
 summary: ""
 
 tags: []
-categories: [Path Integrals, Tensor Networks]
+categories: [Path Integrals, Tensor Networks, Exciton Transport]
 featured: false
 
 # Custom links (optional).

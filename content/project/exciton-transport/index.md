@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Photosynthesis"
+title: "Exciton Transport"
 summary: ""
 authors: [amartya]
 tags: [Applications]

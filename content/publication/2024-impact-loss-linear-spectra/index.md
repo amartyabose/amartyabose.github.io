@@ -29,7 +29,7 @@ abstract: "The presence of loss mechanisms governed by empirical timescales can 
 summary: "Let's study spectra for lossy systems! How would the line shapes be affected? How do we exactly quantify the impact of such changes? Our Path Integral Lindblad Dynamics method provides a perfect way of answering these questions. Walk with us while we explore these questions..."
 
 tags: []
-categories: [Path Integrals, Lossy Systems]
+categories: [Path Integrals, Lossy Systems, Exciton Transport]
 featured: false
 
 # Custom links (optional).
@@ -62,7 +62,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [tensor-network-path-integral, polariton]
+projects: [tensor-network-path-integral, polariton, exciton-transport]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

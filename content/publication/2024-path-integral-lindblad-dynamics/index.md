@@ -25,7 +25,7 @@ abstract: "Path integrals offer a robust approach for simulating open quantum dy
 summary: "How does one incorporate loss and gain mechanisms determined by empirical time-scales in an other-wise numerically exact computation? One way is by combining Lindblad master equations with path integral simulations. Why would one do this? Where are the details? Read more to find out..."
 
 tags: []
-categories: [Path Integrals, Lossy Systems]
+categories: [Path Integrals, Lossy Systems, Exciton Transport]
 featured: true
 
 # Custom links (optional).
