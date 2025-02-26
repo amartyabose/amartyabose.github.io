@@ -22,7 +22,7 @@ abstract: "Hyperuniform states of matter are characterized by anomalous suppress
 summary: ""
 
 tags: []
-categories: []
+categories: [Tensor Networks, Spin Chain, DMRG]
 featured: false
 
 # Custom links (optional).

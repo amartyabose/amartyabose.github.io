@@ -41,13 +41,13 @@ sections:
         - name: Applications
           tag: Applications
     design:
-      columns: '2'
+      columns: '1'
       # view: showcase
       flip_alt_rows: true
 
   - block: tag_cloud
     content:
-      title: Topics under study
+      title: Topics under Study
       subtitle: 
       text: 
       # Choose a taxonomy from the `taxonomies` list in `config.yaml` to display (e.g. tags, categories, authors)
@@ -69,6 +69,6 @@ sections:
           - publication
         publication_type: 'article-journal'
     design:
-      view: 
-      columns: '2'
+      view: showcase
+      columns: '1'
 ---
