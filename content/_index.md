@@ -16,7 +16,36 @@ sections:
          
         The **Quantum Dynamics Research Group** focuses on developing novel computational approaches to **simulating non-equilibrium dynamics of quantum systems in the condensed phase**, overcoming the *curse of dimensionality*.
 
-        {{% cta cta_link="#projects" cta_text="Read more →" %}}&nbsp;{{% cta cta_link="./people/" cta_text="Meet the team →" %}}&nbsp;{{% cta cta_link="https://github.com/amartyabose/QuantumDynamics.jl" cta_text="Software →" %}}
+        {{% cta cta_link="#projects" cta_text="Read more →" %}}&nbsp;&nbsp;{{% cta cta_link="./people/" cta_text="Meet the team →" %}}&nbsp;&nbsp;{{% cta cta_link="https://github.com/amartyabose/QuantumDynamics.jl" cta_text="Software →" %}}
+
+  - block: markdown
+    content:
+      title: "Announcements"
+      subtitle: "[All announcements>>](/news)"
+      text: |
+        {{< readfromfile "/content/news/newslist.dat" 5 >}} 
+    design:
+      columns: '2'
+
+  - block: portfolio
+    id: projects
+    content:
+      title: Research Areas
+      subtitle: The cost of simulations of time-evolution of quantum systems grows exponentially with the number of dimensions involved. Various approaches, both approximate and numerically exact, are required to make such simulations feasible. Explore the ideas that are being developed in the group.
+      filters:
+        folders:
+          - project
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Path Integrals
+          tag: path-integrals
+        - name: Applications
+          tag: applications
+    design:
+      columns: '2'
+      # view: showcase
+      flip_alt_rows: true
 
   - block: markdown
     content:
