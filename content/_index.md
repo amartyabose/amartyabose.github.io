@@ -18,6 +18,15 @@ sections:
 
         {{% cta cta_link="#projects" cta_text="Read more →" %}}&nbsp;{{% cta cta_link="./people/" cta_text="Meet the team →" %}}&nbsp;{{% cta cta_link="https://github.com/amartyabose/QuantumDynamics.jl" cta_text="Software →" %}}
 
+  - block: markdown
+    content:
+      title: "Announcements"
+      subtitle: "[All announcements>>](/news)"
+      text: |
+        {{< readfromfile "/content/news/newslist.dat" 5 >}} 
+    design:
+      columns: '2'
+
   - block: collection
     content:
       title: Latest Publications
@@ -28,6 +37,6 @@ sections:
           - publication
         publication_type: 'article-journal'
     design:
-      view: card
+      view: 
       columns: '2'
 ---

@@ -60,7 +60,7 @@ social:
   link: https://scholar.google.com/citations?user=0OR1sswAAAAJ&hl=en
 - icon: cv
   icon_pack: ai
-  link: files/Curriculum_Vitae.pdf
+  link: uploads/Curriculum_Vitae.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

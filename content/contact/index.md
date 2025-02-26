@@ -14,6 +14,9 @@ sections:
 
         ## PhD Students
         Interested PhD students should come through the regular entrance examination for TIFR, conducted annually in December.
+
+        ## Project Students
+        Positions are available for Junior Research Fellows (JRFs), and Master's students interested in doing their thesis. Please contact [Amartya]({{<relref "/authors/amartya">}}) with your CV.
       email: amartya.bose@tifr.res.in
     #   phone: 888 888 88 88
       address:
