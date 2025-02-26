@@ -14,7 +14,6 @@ sections:
       text: |
         The **Bose Research Group** focuses on developing novel computational approaches to **simulating non-equilibrium dynamics of quantum systems in the condensed phase**, overcoming the *curse of dimensionality*.
 
-
         {{% cta cta_link="#projects" cta_text="Read more →" %}}&nbsp;&nbsp;{{% cta cta_link="./publication/" cta_text="Publications →" %}}&nbsp;&nbsp;{{% cta cta_link="./people/" cta_text="Meet the team →" %}}&nbsp;&nbsp;{{% cta cta_link="https://github.com/amartyabose/QuantumDynamics.jl" cta_text="Software →" %}}<!--&nbsp;&nbsp;{{% cta cta_link="./courses/" cta_text="Courses →" %}}-->
 
   - block: markdown
@@ -45,15 +44,6 @@ sections:
       columns: '2'
       # view: showcase
       flip_alt_rows: true
-
-  - block: markdown
-    content:
-      title: "Announcements"
-      subtitle: "[All announcements>>](/news)"
-      text: |
-        {{< readfromfile "/content/news/newslist.dat" 5 >}} 
-    design:
-      columns: '2'
 
   - block: collection
     content:

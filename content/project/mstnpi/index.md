@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Multisite Tensor Network Path Integral"
-summary: "Simulation of the non-equilibrium dynamics of extended quantum systems is extraordinarily challenging. The challenge is compounded when the dynamics happens in presence of dissipative media. MS-TNPI enables the study of such systems by employing a rigorous 2D decomposition of the path integral expressions."
+summary: "How does one handle the dynamics of extended quantum systems interacting with local dissipative media? MS-TNPI provides an answer to this problem by introducing a 2D tensor network decomposition of the path integral expressions."
 authors: [amartya]
 tags: [extended-systems, path-integrals]
 categories: []
