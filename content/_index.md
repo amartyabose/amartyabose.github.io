@@ -68,7 +68,11 @@ sections:
         folders:
           - publication
         publication_type: 'article-journal'
+      archive:
+        enable: true
+        text: See all publications
+        link: publication/
     design:
-      view: showcase
-      columns: '1'
+      # view: showcase
+      columns: '2'
 ---

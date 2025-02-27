@@ -27,7 +27,7 @@ abstract: "Recent method developments involving path integral simulations have c
 summary: "Path integral calculations scale exponentially with system sizes, making simulations of large systems prohibitively difficult. However, physical systems have certain constraints; interactions, for instance, are generally quite local. Is it possible to use these features to make the cost of path integral simulations indepedent of system size? Explore in depth..."
 
 tags: []
-categories: [Path Integrals]
+categories: [Path Integrals, Correlation Functions]
 featured: false
 
 # Custom links (optional).
