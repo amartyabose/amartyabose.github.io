@@ -32,7 +32,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: uploads/amartya_thesis.pdf
+url_pdf: publication/2018-amartya-phd/amartya_thesis.pdf
 url_code:
 url_dataset:
 url_poster:
