@@ -18,8 +18,9 @@ main:
   #   url: courses/intro-thermo-stat-mech
   - name: Software
     weight: 70
-    url: "https://amartyabose.github.io/QuantumDynamics.jl/dev/"
-    target: _blank
+    url: software
+    # url: "https://amartyabose.github.io/QuantumDynamics.jl/dev/"
+    # target: _blank
   - name: Meet the Team
     url: people
     weight: 80

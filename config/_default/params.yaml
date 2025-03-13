@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'Quantum Dynamics Research Group @ Tata Institute of Fundamental Research.'
-    twitter: 'Quantum Dynamics Research Group'
+    description: 'Bose Research Group: Quantum Dynamics @ Tata Institute of Fundamental Research.'
+    twitter: 'Bose Research Group'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -67,6 +67,7 @@ features:
     extra_languages:
       - julia
       - latex
+      - bash
   math:
     enable: true
   privacy_pack:
