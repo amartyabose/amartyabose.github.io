@@ -1,12 +1,12 @@
 ---
 # Page title
-title: "Basic Quantum Mechanics"
+title: "Quantum Mechanics in 1D"
 
 # Title for the menu link if you wish to use a shorter link title, otherwise remove this option.
-linktitle: Basic Quantum Mechanics
+linktitle: Quantum Mechanics in 1D
 
 # Page summary for search engines.
-summary: How do we solve for the eigenstates of simple quantum systems numerically?
+summary: One-dimensional systems are the staple of beginning quantum mechanics courses. Various analytic and approximate techniques are utilized to study such systems. Numerics gives a unique opportunity to solve all 1D systems to arbitrary required precision. How do we do this? Can we understand both the spectrum of eigenvalues and eigenstates and the dynamics using numerical methods? What can 1D systems tell us about numerical methods in general?
 
 # Date page published
 date: 2025-02-25
@@ -18,14 +18,4 @@ type: book
 weight: 100
 ---
 
-The goal is to find the eigenstates and the eigenenergies of any 1D Hamiltonian,
-{{<math>}}
-$$H = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x).$$
-{{</math>}}
-To do this, one needs to be able to represent the Hamiltonian operator as a matrix for a given basis. A variety of basis can be chosen. The more physically relevant the basis, the more efficient the computations. However as long as the basis can be systematically increased, one should be able to find the correct eigenstates. This procedure is called "convergence."
-
-<!-- {{<highlight julia "linenos=inline">}}
-for j = 1:N
-@show j
-end
-{{</highlight>}} -->
+Systems in one-dimension provide a perfect test bed for understanding the weird aspects of quantum mechanics. In this module, we leverage numerical approaches to obtain exact solutions for arbitrary 1D systems and try to understand them. In the process, we will encounter for the first time an array of core concepts common to all numerical studies --- What does convergence mean? What is a basis set? Does the choice of basis set matter in one-dimension? How do we simulate dynamics?
