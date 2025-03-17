@@ -6,7 +6,7 @@ short_title: "Adaptive Kink Filtration"
 authors:
   - amartya
 date: 2025-02-26T12:38:53+05:30
-doi: ""
+doi: "10.1063/5.0256855"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2025-02-26T12:38:53+05:30
