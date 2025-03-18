@@ -3,7 +3,7 @@
 
 title: "QuantumDynamicsCLI.jl"
 summary: |
-  Simulating the dynamics of quantum systems is a challenging task with a multitude of complicated computational methods. The [QuantumDynamics.jl](https://github.com/amartyabose/QuantumDynamics.jl) package provides modular open-source implementations of an increasingly growing number of these methods, while remaining a flexible platform for further development. However, owing primarily to its exceptionally flexible nature, the usage of QuantumDynamics.jl happens through short Julia scripts. This means that for the most common simulation jobs, one needs to effectively rewrite the same code multiple times increasing the chances of errors. As a means to making some of the common types of simulations more facile, we now offer the [QuantumDynamicsCLI.jl](https://github.com/amartyabose/QuantumDynamicsCLI.jl) package which installs the qdsim application as a sister code of the QuantumDynamics.jl package. As the framework grows, so will this application grow to accommodate the new methods and their most common use cases.
+  Simulating the dynamics of quantum systems is a challenging task with a multitude of complicated computational methods. The [QuantumDynamicsCLI.jl](https://github.com/amartyabose/QuantumDynamicsCLI.jl) package provides an application that leverages [QuantumDynamics.jl]({{<relref "/project/quantumdynamics">}}) to help making simulations a routine affair.
 authors: [amartya]
 tags: [Software]
 categories: [Software]

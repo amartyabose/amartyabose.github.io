@@ -18,14 +18,11 @@ type: book
 weight: 120
 ---
 
-The goal is to find the eigenstates and the eigenenergies of any 1D Hamiltonian,
+How do we simulate the dynamics of a quantum system? Suppose we know that the initial state of the system is given by a particular wave function $|\psi(0)\rangle$ and the system is described by a Hamiltonian,
 {{<math>}}
-$$H = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x).$$
+$$\hat{H} = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x),$$
 {{</math>}}
-To do this, one needs to be able to represent the Hamiltonian operator as a matrix for a given basis. A variety of basis can be chosen. The more physically relevant the basis, the more efficient the computations. However as long as the basis can be systematically increased, one should be able to find the correct eigenstates. This procedure is called "convergence."
-
-<!-- {{<highlight julia "linenos=inline">}}
-for j = 1:N
-@show j
-end
-{{</highlight>}} -->
+then the time-evolution of the wave function satisfies the Time-Dependent Schr\"odinger equation,
+{{<math>}}
+$$i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle = \hat{H}|\psi(t)\rangle.$$
+{{</math>}}
