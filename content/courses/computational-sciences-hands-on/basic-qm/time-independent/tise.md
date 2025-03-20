@@ -50,8 +50,9 @@ As our first example, we choose to work in the position eigenbasis. Of course,
 the position eigenbasis forms an infinite dimensional vector space, which cannot
 be handled in a simple manner on the computer. We truncate the space by
 considering a subset of the real axis --- the domain considered is
-$\mathbb{D}\subset\mathbb{R}$. However, that is not enough by itself because any
-domain, closed or open, would still be an infinite set.
+$\mathbb{D} = [L_\text{min}, L_\text{max}] \subset\mathbb{R}$. However, that is
+not enough by itself because any domain, closed or open, would still be an
+infinite set.
 
 So, we consider a finite set defined by a lower limit, $L_\text{min}$, an upper
 limit, $L_\text{max}$, and a grid spacing $\Delta x$. An arbitrary element of
@@ -63,8 +64,26 @@ Next, we need to derive the matrix elements of the Hamiltonian.
 $$\langle\phi_j|\hat{H}|\phi_k\rangle = -\frac{\hbar^2}{2m}\left\langle\phi_j\left|\frac{\partial^2}{\partial x^2}\right|\phi_k\right\rangle + \langle\phi_j|V(\hat{x})|\phi_k\rangle$$
 $$= -\frac{\hbar^2}{2m}\left\langle\phi_j\left|\frac{\partial^2}{\partial x^2}\right|\phi_k\right\rangle + V(x_k)\delta_{j,k}$$
 {{</math>}}
+Instead of directly calculating the matrix element of the second derivative
+operator, we start by exploring the action of the Hamiltonian matrix on an
+arbitrary wave function written in the position basis.
+{{<math>}}
+$$H|\psi\rangle = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}|\psi\rangle + \hat{V}|\psi\rangle$$
+{{</math>}}
+So, we need to find how to write the second derivative of the wave function
+$|\psi\rangle$ as a function of the its values on the grid. Expanding the
+function in its Taylor series, we can show that
+{{<math>}}
+$$\left.\frac{\partial^2}{\partial x^2}\psi(x)\right|_{x=x_n} (\Delta x)^2 = \psi(x_{n+1}) -2\psi(x_n) + \psi(x_{n-1})$$
+$$-\frac{\hbar^2}{2m}\left.\frac{\partial^2}{\partial x^2}\psi(x)\right|_{x=x_n} = -\frac{\hbar^2}{2m(\Delta x)^2}\left(\psi(x_{n+1}) -2\psi(x_n) + \psi(x_{n-1})\right)$$
+{{</math>}}
 
-{{<highlight julia "linenos=inline">}}
+Now, we can put everything together. The matrix element of the Hamiltonian turns out to be:
+{{<math>}}
+$$\langle\phi_j|\hat{H}|\phi_k\rangle = -\frac{\hbar^2}{2m(\Delta x)^2}\left(\delta_{j,k+1}-2\delta_{j,k}+\delta_{j,k-1}\right) + V(x_k)\delta_{j,k}$$
+{{</math>}}
+
+```julia {linenos=inline hl_lines=["6-10"] style="catppuccin-frappe"}
 function get_Hamiltonian_matrix_position_space(; V, Lmin::Float64, Lmax::Float64, dx::Float64, hbar=1.0, m=1.0)
     xgrid = Lmin : dx : Lmax
     Npoints = length(xgrid)
@@ -80,4 +99,4 @@ function get_Hamiltonian_matrix_position_space(; V, Lmin::Float64, Lmax::Float64
     H[end, end] = V(xgrid[end])
     xgrid, H
 end
-{{</highlight>}} 
+```
