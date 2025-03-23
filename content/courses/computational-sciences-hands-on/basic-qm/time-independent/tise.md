@@ -113,7 +113,26 @@ Notice that the Hamiltonian matrix elements that we derived in the previous
 section requires $\Delta x\to 0$. That is not being satisfied. However, what
 does "tending to 0" mean in a computational setting? To understand this, let us
 plot the energy of the lowest eigenstate as a function of $\Delta x$ keeping the
-$L_\text{min}$ and $L_\text{max}$ constant. We are just trying to make the
-second derivative Taylor expansion correct.
+$L_\text{min}$ and $L_\text{max}$ fixed. We are just trying to make the
+second derivative Taylor expansion correct. Notice that as $\Delta x$ decreases
+the value of $E_0$ seems to be hitting a constant value. This is the converged
+value with respect to $\Delta x$.
 
-{{<figure src="dx_convergence.jpeg" caption="Convergence of grid spacing" class="ma0 w-75">}}
+{{<figure src="computational-sciences/basic-qm/time-independent/dx_convergence.png" caption="Convergence of grid spacing" class="ma0 w-75" target="dx-convergence">}}
+
+If we stopped at this level, does this value match the analytical value for the
+harmonic oscillator? The zero-point energy should actually be 0.5, whereas the
+value we are getting by diagonalizing is close to 5.0. That terribly incorrect.
+
+The next step would be to check for convergence with respect to the box size,
+$L_\text{max}$. Since the Taylor series error seems to be relatively well
+converged with $\Delta x=0.001$, that is kept fixed. 
+
+{{<figure src="computational-sciences/basic-qm/time-independent/Lmax_convergence.png" caption="Convergence of box size" class="ma0 w-75">}}
+
+
+> Write the programs to obtain the $\Delta x$ and the $L_\text{max}$ convergence curves.
+
+> Converge the energies corresponding to the ground state and the 10th excited state. What box-sizes are required for the two cases? Are they the same or different and why?
+
+> Converge the eigenstates of a Morse oscillator.
