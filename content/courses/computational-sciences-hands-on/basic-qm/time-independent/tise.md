@@ -126,13 +126,15 @@ value we are getting by diagonalizing is close to 5.0. That terribly incorrect.
 
 The next step would be to check for convergence with respect to the box size,
 $L_\text{max}$. Since the Taylor series error seems to be relatively well
-converged with $\Delta x=0.001$, that is kept fixed. 
+converged with $\Delta x=0.001$, that is kept fixed. Notice how the energies of
+the first 5 eigenstates converge to the correct values around $L_\text{max} =
+5.0$. This is convergence with respect to the box size.
 
 {{<figure src="computational-sciences/basic-qm/time-independent/Lmax_convergence.png" caption="Convergence of box size" class="ma0 w-75">}}
 
 
 > Write the programs to obtain the $\Delta x$ and the $L_\text{max}$ convergence curves.
 
-> Converge the energies corresponding to the ground state and the 10th excited state. What box-sizes are required for the two cases? Are they the same or different and why?
+> Converge the harmonic oscillator energies corresponding to the ground state and the 10th excited state. What box-sizes are required for the two cases? Are they the same or different and why?
 
-> Converge the eigenstates of a Morse oscillator.
+> Can you use the same technique to converge the eigenstates of a Morse oscillator.
