@@ -77,26 +77,43 @@ function in its Taylor series, we can show that
 $$\left.\frac{\partial^2}{\partial x^2}\psi(x)\right|_{x=x_n} (\Delta x)^2 = \psi(x_{n+1}) -2\psi(x_n) + \psi(x_{n-1})$$
 $$-\frac{\hbar^2}{2m}\left.\frac{\partial^2}{\partial x^2}\psi(x)\right|_{x=x_n} = -\frac{\hbar^2}{2m(\Delta x)^2}\left(\psi(x_{n+1}) -2\psi(x_n) + \psi(x_{n-1})\right)$$
 {{</math>}}
+for $\Delta x\to 0$.
 
 Now, we can put everything together. The matrix element of the Hamiltonian turns out to be:
 {{<math>}}
 $$\langle\phi_j|\hat{H}|\phi_k\rangle = -\frac{\hbar^2}{2m(\Delta x)^2}\left(\delta_{j,k+1}-2\delta_{j,k}+\delta_{j,k-1}\right) + V(x_k)\delta_{j,k}$$
 {{</math>}}
 
-```julia {linenos=inline hl_lines=["6-10"] style="catppuccin-frappe"}
-function get_Hamiltonian_matrix_position_space(; V, Lmin::Float64, Lmax::Float64, dx::Float64, hbar=1.0, m=1.0)
-    xgrid = Lmin : dx : Lmax
-    Npoints = length(xgrid)
-    H = zeros(Npoints, Npoints)
-    for r = 2:Npoints-1, c = 1:Npoints
-        if r == c
-            H[r, c] = hbar^2 / (m * dx^2) + V(xgrid[r])
-        elseif r == c-1 || r == c+1
-            H[r, c] = -hbar^2 / (2 * m * dx^2)
-        end
-    end
-    H[1, 1] = V(xgrid[1])
-    H[end, end] = V(xgrid[end])
-    xgrid, H
-end
-```
+Below is the code which defines the tridiagonal Hamiltonian for a given
+potential on a position eigenstate basis given by the variable `xgrid` in Julia:
+{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/time-independent/Hamiltonian_position_space.jl" id="get-Hamiltonian">}}
+The Hamiltonian matrix obtained from this code can be diagonalized to get the
+energies and the eigenstates.
+
+### Harmonic Oscillator Eigenstates
+Let us test the code by using a harmonic oscillator as an example. Consider the
+following potential:
+{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/time-independent/Hamiltonian_position_space.jl" id="potential">}}
+
+To use the potential, first we need to decide on the grid. This will of course
+be converged. Because this potential is symmetric, we will choose a symmetric
+grid with $L_\text{min}=-L_\text{max}$.
+
+Let us take the following grid:
+{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/time-independent/Hamiltonian_position_space.jl" id="grid1">}}
+Then we diagonalize the matrix as follows
+{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/time-independent/Hamiltonian_position_space.jl" id="diagonalize">}}
+
+Take a look at the values that you get. Do they match what you know from basic
+quantum mechanics?
+
+Probably not! On running the code, the lowest eigenvalue that I got is 3.43. Where are we going wrong then?
+
+Notice that the Hamiltonian matrix elements that we derived in the previous
+section requires $\Delta x\to 0$. That is not being satisfied. However, what
+does "tending to 0" mean in a computational setting? To understand this, let us
+plot the energy of the lowest eigenstate as a function of $\Delta x$ keeping the
+$L_\text{min}$ and $L_\text{max}$ constant. We are just trying to make the
+second derivative Taylor expansion correct.
+
+{{<figure src="dx_convergence.jpeg" caption="Convergence of grid spacing" class="ma0 w-75">}}
