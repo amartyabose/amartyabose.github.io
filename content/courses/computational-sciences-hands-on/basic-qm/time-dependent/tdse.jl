@@ -1,5 +1,6 @@
 using PyCall
 @pyimport matplotlib.animation as anim
+using Printf
 
 include("../Hamiltonian.jl")
 
@@ -78,7 +79,9 @@ times, ψs_flatter = propagate_accurate(H, ψ0, dt, ntimes)
 fig, ax = new_figure("double")
 function animate(i)
     ax.clear()
-    p1 = ax.plot(x, abs.(ψs_ground[:, i+1]).^2)
+    t = @sprintf("%.2f", times[i+1])
+    p1 = ax.plot(x, abs.(ψs_ground[:, i+1]).^2, label=L"t=%$(t)")
+    ax.legend()
     ax.set_xlabel(L"x")
     ax.set_ylabel(L"\mid\braket{x}{\psi(t)}\mid^2")
     p1
