@@ -21,6 +21,9 @@ main:
     url: software
     # url: "https://amartyabose.github.io/QuantumDynamics.jl/dev/"
     # target: _blank
+  - name: News
+    weight: 75
+    url: news
   - name: Meet the Team
     url: people
     weight: 80
