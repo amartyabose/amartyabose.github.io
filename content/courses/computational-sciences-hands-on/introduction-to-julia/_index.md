@@ -29,6 +29,7 @@ Julia already comes equipped with several modules useful for scientific programm
 
 ### Other packages of importance for the course
 1. [Plots.jl](https://docs.juliaplots.org/stable/) or [PyPlot.jl](https://github.com/JuliaPy/PyPlot.jl) for plotting.
+1. [FFTW.jl](https://juliamath.github.io/FFTW.jl/stable/) for Fourier transforms.
 
 ### Beyond this course
 1. [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/) for built-in solutions to differential equations using advanced algorithms.
