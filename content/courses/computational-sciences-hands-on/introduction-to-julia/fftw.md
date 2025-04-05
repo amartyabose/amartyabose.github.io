@@ -41,7 +41,11 @@ This is provided by the function fft. Notice that $k$ is the discretized version
 of the $\xi$ variable and $m$ is the one corresponding to $x$. The points where
 $k>N/2$ are equivalent to frequencies at $k-N$ by periodicity. To order change
 this ordering to go from $-N/2$ to $N/2$, use the fftshift function provided in
-the FFTW.jl package.
+the FFTW.jl package. An inverse FFT routine called bfft is provided which
+calculates:
+{{<math>}}
+$$f_m = \sum_{k=0}^{N-1} F_k \exp\left(\frac{2\pi ikm}{N}\right)\quad m=0, \ldots, N-1.$$
+{{</math>}}
 
 One can slowly modify the Fourier transform expression by converting it into a
 finite Riemann sum to obtain a formula analogous to the FFT one. Let $x$ be
@@ -54,6 +58,15 @@ $$=\exp\left(-2\pi i k\Delta \xi x_\text{min}\right) \Delta x \sum_{m=0}^{N-1} f
 $$=\exp\left(-2\pi i k\Delta \xi x_\text{min}\right) \Delta x \sum_{m=0}^{N-1} f_m \exp\left(-\frac{2\pi i k m}{N}\right)$$
 $$=\exp\left(-2\pi i k\Delta \xi x_\text{min}\right) \Delta x F_k$$
 {{</math>}}
+
+Now for the inverse transform:
+{{<math>}}
+$$IFT[F](x_\text{min}+m\Delta x) = \sum_{k=0}^{N-1} F_k \exp\left(2\pi i k\Delta\xi (x_\text{min} + m\Delta x)\right)\Delta k$$
+$$=\Delta k\sum_{k=0}^{N-1} \underbrace{\exp(2\pi i k\Delta\xi x_\text{min}) F_k}_{G_k} \exp\left(\frac{2\pi i k m}{N}\right)$$
+$$=g_m\Delta k$$
+{{</math>}}
+
+The details of implementation in Julia are given in [the examples section](#example-using-fftw).
 
 ## Uses in Quantum Mechanics
 Consider a function, say the wave function, in position space, $\psi(x)$. Let us
@@ -94,14 +107,16 @@ Let us suppose we have a wave packet that is given by:
 {{<math>}}
 $$\psi(x) = \frac{1}{(\pi\sigma)^{1/4}} \exp\left(-\frac{x^2}{2\sigma^2} + \frac{ipx}{\hbar}\right)$$
 {{</math>}}
-{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw.jl" id="setup-signal">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw_examples.jl" id="setup-signal">}}
 
 {{<figure src="computational-sciences/pos_space_wf.png" caption="Wave function in position space" class="ma0w-75">}}
 
 We write a function to get the Fourier transform from the FFT, keeping in mind that in almost all uses of quantum mechanics the factor of $2\pi$ in the Fourier transform kernel is absent,
 {{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw.jl" id="fourier-transform">}}
+The inverse Fourier transform can also be implemented using FFT in a similar manner:
+{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw.jl" id="inverse-fourier-transform">}}
 
 We use this function to obtain the momentum space wave function as follows:
-{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw.jl" id="apply-fourier-transform">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw_examples.jl" id="apply-fourier-transform">}}
 to obtain the following wave function
 {{<figure src="computational-sciences/mom_space_wf.png" caption="Wave function in momentum space" class="ma0w-75">}}

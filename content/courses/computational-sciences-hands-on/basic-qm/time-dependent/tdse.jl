@@ -2,9 +2,8 @@ using PyCall
 @pyimport matplotlib.animation as anim
 using Printf
 
-using FFTW
-
 include("../Hamiltonian.jl")
+include("../../introduction-to-julia/fftw.jl")
 
 #BEGIN propagate-accurate
 function propagate_accurate(H, ψ, dt, Ntimes)
@@ -41,9 +40,7 @@ end
 function propagate_feit_fleck(V, xgrid, ψ, dt, Ntimes)
     Vgrid = V.(xgrid)
     half_pot_prop = exp.(-1im * Vgrid * dt / 2)
-    dx = xgrid[2] - xgrid[1]
-    pgrid = fftshift(fftfreq(length(xgrid), 1.0/dx)) * 2π
-    dp = pgrid[2] - pgrid[1]
+    pgrid, _ = fourier_transform(xgrid, ψ, true)
     kin_prop = exp.(-1im * pgrid.^2 * dt / 2.0)
 
     times = 0:dt:Ntimes*dt
@@ -51,9 +48,8 @@ function propagate_feit_fleck(V, xgrid, ψ, dt, Ntimes)
     ψs[:, 1] = ψ
 
     for t = 1:Ntimes
-        Vψ = half_pot_prop .* ψs[:, t]
-        ψtilde = kin_prop .* fftshift(fft(Vψ)) * dx / sqrt(2π)
-        ψs[:, t+1] = half_pot_prop .* bfft(ifftshift(ψtilde)) / sqrt(2π) * dp
+        p, Vψ = fourier_transform(xgrid, half_pot_prop .* ψs[:, t], true)
+        ψs[:, t+1] = half_pot_prop .* inverse_fourier_transform(p, kin_prop .* Vψ, xgrid, true)
     end
     times, ψs
 end
@@ -126,7 +122,7 @@ function test_dynamics(psi0, V, xgrid, dt, ntimes, name)
     @info "Propagating using exact method"
     @time times, ψs = propagate_accurate(H, ψ0, dt, ntimes)
     @info "Propagating using split operator method"
-    @time times_so, ψs_so = propagate_feit_fleck_plan(V, xgrid, ψ0, dt, ntimes)
+    @time times_so, ψs_so = propagate_feit_fleck(V, xgrid, ψ0, dt, ntimes)
     # @info "Propagating using split operator method using FFTW plan"
     # @time times_so_plan, ψs_so_plan = propagate_feit_fleck_plan(V, xgrid, ψ0, dt, ntimes)
 
