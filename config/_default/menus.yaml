@@ -28,5 +28,8 @@ main:
     url: people
     weight: 80
   - name: Join Us
-    url: contact
+    url: positions
     weight: 90
+  - name: Contact
+    url: contact
+    weight: 100
