@@ -8,7 +8,7 @@ sections:
   - block: contact
     content:
       title: Contact
-      subtitle: "<link href='https://calendar.google.com/calendar/scheduling-button-script.css' rel='stylesheet'> <script src='https://calendar.google.com/calendar/scheduling-button-script.js' async></script> <script> (function() { var target = document.currentScript; window.addEventListener('load', function() { calendar.schedulingButton.load({ url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1WovSUveUFx0ThiaoktzgYB5NbxRNg7WnDNew7Z6V1HBa30auKI56EAwzfpXtvsec9vhvZcQR4?gv=true', color: '#039BE5', label: 'Book an appointment', target, }); }); })(); </script>"
+      subtitle: '<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"> <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: "https://calendly.com/amartya-bose/60min", text: "Schedule time with me", color: "#0069ff", textColor: "#ffffff" }); }</script>'
       text:
       email: amartya.bose@tifr.res.in
     #   phone: 888 888 88 88
@@ -26,7 +26,7 @@ sections:
     #   office_hours:
     #     - 'Monday 10:00 to 13:00'
     #     - 'Wednesday 09:00 to 10:00'
-      # appointment_url: {{< snippets "layouts/shortcodes/appointment.html" >}}
+      appointment_url: 'https://calendly.com/amartya-bose/60min'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
