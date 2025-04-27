@@ -55,10 +55,37 @@ Now we should have all the ingredients ready. How does one do a real simulation?
 1. You can choose 5 or 10 different frames from the **post-equilibration part** of the equilibration trajectory and launch multiple MC runs to obtain error analysis. These would be called the production runs. Do a comparison between `move_single` and `move_all`. Some sample observables are discussed in [Observables](#observables).
 1. Choose one of the production runs and visualize using VMD / PyMol.
 
-## Observables
+### Observables
 We are interested in understanding a few bulk observables at different temperatures and number densities. The simplest are the interatomic distance, or the total potential energy. In addition to just looking at the average with some MC error, one should also plot the histograms to understand the distribution of these quantities.
 
 Apart from that one simple but very important observable is the [Radial Distribution Function](https://en.wikipedia.org/wiki/Radial_distribution_function), which tells us about the local packing and particle distribution with respect to the bulk density. To calculate the radial distribution function:
 1. Define the average density at a distance $r$, $\langle \rho(r)\rangle$, as the local density of particles at a distance $r$ away from another particle. The number of particles at distance $r$ from another particle is therefore $4\pi r^2 \langle\rho(r)\rangle$.
     1. Calculate $\langle\rho(r)\rangle$ by finding the average number of particles at a distance $r$ from any particle and dividing it by $4\pi r^2$.
 1. The radial distribution function, $g(r)$, is defined as $g(r) = \frac{\langle\rho(r)\rangle}{\rho}$ where $\rho$ is the bulk density.
+
+## Putting It All Together
+Write a full program, that can be run in two different modes:
+1. the **equilibration** mode
+1. the **run** mode
+
+The input would be in the form of a [TOML file](https://toml.io/en/) which can be parsed very easily in Julia using the [TOML standard library](https://docs.julialang.org/en/v1/stdlib/TOML/).
+
+A sample input structure, without the exact values provided, may be:
+```toml
+[system]
+N = 
+L = 
+epsilon = 
+sigma = 
+temperature = 
+
+[simulation]
+mc_steps = 
+Deltax = 
+output_traj = "traj.xyz"
+mode = "equilibration"
+```
+
+The `[system]` block encodes everything about our LJ fluid, while the `[simulation]` block tells the program what to do and how to run. The `mode` variable specifies the running mode, and one might read in different parameters based on the running mode. For instance, one may choose to have a `nbins` parameter for the **run** mode and not for the **equilibration** mode. Similarly, one may ask for a list of thermodynamic observables to be output along with error bars for the **run** mode and not for the **equilibration** mode.
+
+This input format is just a suggestion. Feel free to use your imagination.
