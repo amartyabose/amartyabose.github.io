@@ -33,7 +33,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://arxiv.org/pdf/2206.15421.pdf"
+url_pdf: "publication/2022-effect-of-temperature/paper.pdf"
 url_code:
 url_dataset:
 url_poster:

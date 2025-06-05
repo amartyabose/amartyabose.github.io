@@ -32,7 +32,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://arxiv.org/pdf/2106.14934.pdf"
+url_pdf: "publication/2022-pairwise-connected/paper.pdf"
 url_code:
 url_dataset:
 url_poster:

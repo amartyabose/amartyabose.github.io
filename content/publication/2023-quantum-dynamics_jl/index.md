@@ -36,7 +36,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: "publication/2023-quantum-dynamics_jl/paper.pdf"
 url_code: "https://github.com/amartyabose/QuantumDynamics.jl"
 url_dataset:
 url_poster:

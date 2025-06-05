@@ -33,7 +33,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/pdf/2202.05350.pdf
+url_pdf: "publication/2022-tensor-network-b850/paper.pdf"
 url_code:
 url_dataset:
 url_poster:

@@ -40,7 +40,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: "publication/2024-impact-loss-linear-spectra/paper.pdf"
 url_code:
 url_dataset:
 url_poster:

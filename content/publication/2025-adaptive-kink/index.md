@@ -38,7 +38,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: "publication/2025-adaptive-kink/paper.pdf"
 url_code:
 url_dataset:
 url_poster:

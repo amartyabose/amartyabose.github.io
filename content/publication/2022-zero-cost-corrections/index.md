@@ -32,7 +32,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://arxiv.org/pdf/2205.15072.pdf"
+url_pdf: "publication/2022-zero-cost-corrections/paper.pdf"
 url_code:
 url_dataset:
 url_poster:

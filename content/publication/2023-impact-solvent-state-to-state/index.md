@@ -37,7 +37,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/pdf/2301.12712.pdf
+url_pdf: "publication/2023-impact-solvent-state-to-state/paper.pdf"
 url_code:
 url_dataset:
 url_poster:

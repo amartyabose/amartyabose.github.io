@@ -33,7 +33,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: "publication/2023-quantum-correlation-functions-tensor-network/paper.pdf"
 url_code:
 url_dataset:
 url_poster:
