@@ -33,7 +33,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/pdf/2012.06545.pdf
+url_pdf: "publication/2021-qpt-hyperuniform-spins/paper.pdf"
 url_code:
 url_dataset:
 url_poster:
