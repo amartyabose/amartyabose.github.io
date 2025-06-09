@@ -33,7 +33,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "publication/2025-asw/paper.pdf"
+url_pdf: "publication/2015-asw/paper.pdf"
 url_code:
 url_dataset:
 url_poster:
