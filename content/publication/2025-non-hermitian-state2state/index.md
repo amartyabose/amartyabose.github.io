@@ -6,6 +6,9 @@ short_title: "Non-Hermitian State-to-State Analysis"
 authors:
   - devansh
   - amartya
+author_notes:
+  - 
+  - "Corresponding author"
 date: 2025-02-26T12:38:53+05:30
 doi: "10.1021/acs.jctc.5c00497"
 
@@ -28,7 +31,7 @@ abstract: "Efficiency of quantum transport through aggregates with multiple endp
 summary: "Transport efficiency in aggregates is a complex many-body non-equilibrium phenomenon. Imagine a localized excitation generated at initial time. This localed excitation has to travel to the trap site and then would leak out. This total process would have a net time-scale. How does one calculate this emergent time-scale? What happens if there are multiple end-points?"
 
 tags: []
-categories: [Path Integrals, Transport Efficiency]
+categories: [Path Integrals, Lossy Systems, Exciton Transport, Transport Efficiency]
 featured: true
 
 # Custom links (optional).
