@@ -9,13 +9,15 @@ sections:
       title: Openings
       text: |
         ## Post-doctoral Researchers
-        We are currently looking for a highly motivated and talented post-doctoral candidates with background in either Physics or theoretical and computational Chemistry interested in addressing challenging problems. If you think you are interested and a good fit, contact [Amartya]({{<relref "/authors/amartya">}}) with your CV and a project proposal.
+        ~We are currently looking for a highly motivated and talented post-doctoral candidates with background in either Physics or theoretical and computational Chemistry interested in addressing challenging problems. If you think you are interested and a good fit, contact [Amartya]({{<relref "/authors/amartya">}}) with your CV and a project proposal.~
+
+        There is no Post-doctoral vacancy right now. Please check back later!
 
         ## PhD Students
         Interested PhD students should come through the regular entrance examination for TIFR, conducted annually in December.
 
         ## Project Students
-        Positions are available for Junior Research Fellows (JRFs), and Master's students interested in doing their thesis. Please contact [Amartya]({{<relref "/authors/amartya">}}) with your CV.
+        Positions are available for ~Junior Research Fellows (JRFs), and~ Master's students interested in doing their thesis. Please contact [Amartya]({{<relref "/authors/amartya">}}) with your CV.
     design:
       columns: '1'
       # background:
