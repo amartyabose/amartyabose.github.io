@@ -29,7 +29,9 @@ become the corner stone of all of science. Subsequent reformulations by
 gave more elegant and novel geometric interpretations. These later developments
 provide essential building blocks for statistical mechanics.
 
-In this module, we briefly touch upon these formulations.
-
-## Newton's Laws of Motion
+In this module, we briefly touch upon these fundamentals. It is not going to be
+possible for us to delve into the Langrangian or Hamiltonian formalism, which is
+the subject matter for extensive study. However, we will try to put together
+enough basics to be able to appreciate the molecular origins of thermodynamics
+and statistical mechanics.
 

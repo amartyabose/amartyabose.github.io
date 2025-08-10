@@ -24,8 +24,26 @@ How do we describe large systems? How do we understand properties of systems
 with complex interactions? What is equilibrium and what is *not* equilibrium?
 What constitutes a phase transition and how is it characterized?
 
-Thermodynamics and statistical mechanics seeks to answer these and many other
-questions about emergent properties of bulk systems.
+Thermodynamics and statistical mechanics seek to answer these and many other
+questions about emergent properties of bulk systems. In this course, we will get
+acquainted with the fundamentals of these two extremely broad subjects. A
+semester-long course is not enough to develop a deep understanding of the
+nuances of the multitude of phenomena described by these fundamentals.
+
+We will start our discussions in an apparently disjoint corner of physics by
+spending some time revising the basics of classical mechanics. While many more
+sophisticated techniques have been developed over the years, for our purposes we
+will stick to Newtonian mechanics. Revisiting these fundamentals will
+simultaneously provide us with an idea of the questions that need to be asked
+about macroscopic systems, and why mechanics alone is not sufficient to answer
+these.
+
+This will lead us onto thermodynamics, where we will establish various
+postulates and show how macroscopic behavior of equilibrium systems can indeed be quite
+uniform, lending them to be described by a unified theory that does not even
+need the knowledge of the structure and dynamics of these systems.
+
+
 
 ## Resources
 
