@@ -1,16 +1,16 @@
 ---
 # Display name
-title: "Devansh Sharma"
+title: "M. Visuwesh"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "devansh"
+- "visuwesh"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Graduate Student
+role: Junior Research Fellow
 
 # Organizations/Affiliations
 organizations:
@@ -22,38 +22,40 @@ bio:
 
 # List each interest with a dash
 interests:
-- Quantum dynamics
-- Polaritonic chemistry
+- Electronic structure theory
+- Ab initio dynamics
 
 education:
   courses:
-  - course: BSc (Hons.) in Chemistry
-    institution: Banaras Hindu University
-    year: 2022
+  - course: Integrated MSc Chemistry (Physical Chemistry Specialization)
+    institution: Birla Institute of Technology, Mesra, Rachi
+    year: 2025
 
 # Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
+# social:
 # - icon: envelope
 #   icon_pack: fas
-#   link: 'mailto:amartya.bose@gmail.com'
-# - icon: orcid
+#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: twitter
 #   icon_pack: fab
-#   link: https://orcid.org/0000-0003-0685-5096
-# - icon: researchgate
-#   icon_pack: fab
-#   link: https://www.researchgate.net/profile/Amartya-Bose-3
+#   link: https://twitter.com/USERNAME
 # - icon: google-scholar
 #   icon_pack: ai
-#   link: https://scholar.google.com/citations?user=0OR1sswAAAAJ&hl=en
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/DevanshSharma.pdf
+#   link: https://scholar.google.com/citations?user=PERSON-ID
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/USERNAME
+# # Link to a PDF of your resume/CV from the About widget.
+# # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# # - icon: cv
+# #   icon_pack: ai
+# #   link: files/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+# # Enter email to display Gravatar (if Gravatar enabled in Config)
+# email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -61,7 +63,5 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
-# - Researchers
+- Project Students
 ---
-

@@ -14,6 +14,7 @@ sections:
           - Principal Investigator
           - Postdoctoral Researchers
           - Grad Students
+          - Project Students
           - Administration
           - Visitors
           - Alumni

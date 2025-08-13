@@ -49,6 +49,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:amartya.bose@gmail.com'
+- icon: github
+  icon_pack: fab
+  link: https://github.com/amartyabose
 - icon: orcid
   icon_pack: fab
   link: https://orcid.org/0000-0003-0685-5096
