@@ -86,23 +86,23 @@ $$\langle\phi_j|\hat{H}|\phi_k\rangle = -\frac{\hbar^2}{2m(\Delta x)^2}\left(\de
 
 Below is the code which defines the tridiagonal Hamiltonian for a given
 potential on a position eigenstate basis given by the variable `xgrid` in Julia:
-{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/Hamiltonian.jl" id="get-Hamiltonian">}}
-The Hamiltonian matrix obtained from this code can be diagonalized to get the
+{{<code language="julia" source="courses/computational-sciences-hands-on/02-basic-qm/Hamiltonian.jl" id="get-Hamiltonian">}}
+The Hamiltonian matrix obtained from this code can now be diagonalized to get the
 energies and the eigenstates.
 
 ### Harmonic Oscillator Eigenstates
 Let us test the code by using a harmonic oscillator as an example. Consider the
 following potential:
-{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/time-independent/Hamiltonian_position_space.jl" id="potential">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/02-basic-qm/time-independent/Hamiltonian_position_space.jl" id="potential">}}
 
 To use the potential, first we need to decide on the grid. This will of course
 be converged. Because this potential is symmetric, we will choose a symmetric
 grid with $L_\text{min}=-L_\text{max}$.
 
 Let us take the following grid:
-{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/time-independent/Hamiltonian_position_space.jl" id="grid1">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/02-basic-qm/time-independent/Hamiltonian_position_space.jl" id="grid1">}}
 Then we diagonalize the matrix as follows
-{{<code language="julia" source="courses/computational-sciences-hands-on/basic-qm/time-independent/Hamiltonian_position_space.jl" id="diagonalize">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/02-basic-qm/time-independent/Hamiltonian_position_space.jl" id="diagonalize">}}
 
 Take a look at the values that you get. Do they match what you know from basic
 quantum mechanics?
@@ -110,7 +110,7 @@ quantum mechanics?
 Probably not! On running the code, the lowest eigenvalue that I got is 3.43. Where are we going wrong then?
 
 Notice that the Hamiltonian matrix elements that we derived in the previous
-section requires $\Delta x\to 0$. That is not being satisfied. However, what
+section requires $\Delta x\to 0$. This constraint is not satisfied here. However, what
 does "tending to 0" mean in a computational setting? To understand this, let us
 plot the energy of the lowest eigenstate as a function of $\Delta x$ keeping the
 $L_\text{min}$ and $L_\text{max}$ fixed. We are just trying to make the
@@ -126,18 +126,18 @@ value we are getting by diagonalizing is close to 5.0. That terribly incorrect.
 
 The next step would be to check for convergence with respect to the box size,
 $L_\text{max}$. Since the Taylor series error seems to be relatively well
-converged with $\Delta x=0.001$, that is kept fixed. The plot of the energies of
-the first five eigenstates are shown in [$L_\text{max}$ convergence
-figure](#Lmax-convergence). Notice how the energies of the first 5 eigenstates
-converge to the correct values around $L_\text{max} = 5.0$. This is convergence
-with respect to the box size.
+converged with $\Delta x=0.001$, that the value of $L_\text{max}$ is kept
+unchanged. The plot of the energies of the first five eigenstates is shown in
+[$L_\text{max}$ convergence figure](#Lmax-convergence). Notice how the energies
+of the first 5 eigenstates converge to the correct values around $L_\text{max} =
+5.0$. This is convergence with respect to the box size.
 
 {{<figure src="computational-sciences/basic-qm/time-independent/Lmax_convergence.png" caption="Convergence of box size" class="ma0 w-75" id="Lmax-convergence">}}
 
 
 > Write the programs to obtain the $\Delta x$ and the $L_\text{max}$ convergence curves.
 
-> Converge the harmonic oscillator energies corresponding to the ground state and the 10th excited state. What box-sizes are required for the two cases? Are they the same or different and why?
+> Converge the harmonic oscillator energies corresponding to the ground state and the 10th excited state. What are the box-sizes required for the two cases? Are they the same or different and why?
 
 > Can you use the same technique to converge the eigenstates of a Morse oscillator?
 

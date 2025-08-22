@@ -68,14 +68,16 @@ features:
       - julia
       - latex
       - bash
+    theme_light: xcode-light
+    theme_dark: xcode-dark
   math:
     enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
+    # url: 'https://github.com/amartyabose/amartyabose.github.io'
+    # content_dir: content
+    # branch: main
   avatar:
     gravatar: false
     shape: circle

@@ -107,16 +107,16 @@ Let us suppose we have a wave packet that is given by:
 {{<math>}}
 $$\psi(x) = \frac{1}{(\pi\sigma)^{1/4}} \exp\left(-\frac{x^2}{2\sigma^2} + \frac{ipx}{\hbar}\right)$$
 {{</math>}}
-{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw_examples.jl" id="setup-signal">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/01-introduction-to-julia/fftw_examples.jl" id="setup-signal">}}
 
 {{<figure src="computational-sciences/pos_space_wf.png" caption="Wave function in position space" class="ma0w-75">}}
 
 We write a function to get the Fourier transform from the FFT, keeping in mind that in almost all uses of quantum mechanics the factor of $2\pi$ in the Fourier transform kernel is absent,
-{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw.jl" id="fourier-transform">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/01-ntroduction-to-julia/fftw.jl" id="fourier-transform">}}
 The inverse Fourier transform can also be implemented using FFT in a similar manner:
-{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw.jl" id="inverse-fourier-transform">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/01-introduction-to-julia/fftw.jl" id="inverse-fourier-transform">}}
 
 We use this function to obtain the momentum space wave function as follows:
-{{<code language="julia" source="courses/computational-sciences-hands-on/introduction-to-julia/fftw_examples.jl" id="apply-fourier-transform">}}
+{{<code language="julia" source="courses/computational-sciences-hands-on/01-introduction-to-julia/fftw_examples.jl" id="apply-fourier-transform">}}
 to obtain the following wave function
 {{<figure src="computational-sciences/mom_space_wf.png" caption="Wave function in momentum space" class="ma0w-75">}}
