@@ -58,3 +58,4 @@ S_2}{\partial U_2} = f(T_2)$ at the initial time, then $\frac{dU_1}{dt}>0$. This
 that the energy is flowing from the second compartment to the first compartment.
 So, we define $f(T) = \frac{1}{T}$, which satisfies this direction of energy flow.
 
+### Temperature using Internal Energy
