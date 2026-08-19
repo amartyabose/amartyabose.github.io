@@ -29,9 +29,7 @@ jobs:
 
       - name: Checkout Blowfish
 	run: |
-	  git clone --depth 1 --branch v3.1.0 \
-	    https://github.com/nunocoracao/blowfish.git \
-	    themes/blowfish
+	  git clone --depth 1 --branch v3.1.0 https://github.com/nunocoracao/blowfish.git themes/blowfish
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
