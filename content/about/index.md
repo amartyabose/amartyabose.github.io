@@ -9,6 +9,8 @@ showDate = false
 
 I am an Assistant Professor at the [Tata Institute of Fundamental Research](https://www.tifr.res.in). My research lies at the intersection of quantum mechanics, non-equilibrium statistical mechanics, and computational physics, where I develop methods for simulating quantum dynamics. In case it's the science that excites you, may I welcome you to my group's website, [Bose Research Group](https://bose-research-group.github.io/)?
 
+For the rest who wish to explore things beyond science, here's a bit more about me...
+
 ## The Academic Bits: That Which Shouldn't Be Here But Is
 
 **Tata Institute of Fundamental Research**  
